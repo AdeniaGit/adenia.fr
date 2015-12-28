@@ -35,6 +35,7 @@
 
 # Composer PHAR
 /composer.phar
+<<<<<<< HEAD
 
 # =========================
 # Operating System Files
@@ -86,3 +87,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+=======
+>>>>>>> 37f230d2c2b1752a2bafaf4e541c4b1d3d2ccbd7
