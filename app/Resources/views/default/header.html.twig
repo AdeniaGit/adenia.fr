@@ -1,0 +1,82 @@
+<div class="ct-navbarMobile">
+    <a href="{{ path('accueil') }}" class="navbar-brand">
+        <img src="{{ asset('resources/logo.png') }}" alt="Logo Adenia">
+    </a>
+    <button type="button" class="navbar-toggle"><span class="sr-only">Toggle Navigation</span>
+        <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+    </button>
+</div>
+
+<div class="ct-topBar text-uppercase ct-fw-400">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <ul class="list-inline pull-left ct-information-contact">
+                    <li>
+                        <i class="fa fa-phone"></i>tel:
+                        <a href="tel:0667109515"> (+33)6 67 10 95 15</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope-o"></i>mail:
+                        <a href="mailto:contact@adenia.fr"> contact@adenia.fr</a>
+                    </li>
+                </ul>
+                <div class="pull-right">
+                    <ul class="list-inline">
+                        <li>
+                            <ul class="list-inline ct-socials">
+                                <li><a href="https://www.linkedin.com/in/st%C3%A9phanie-de-botton-232b05b8"><i class="fa fa-linkedin-square"></i></a></li>
+                                <li><a href="http://www.viadeo.com/fr/profile/stephanie.de.botton"><img src="{{ asset('resources/viadeo.png') }}" style="width: 20px; margin-bottom: 4px;"></img></a></li>
+                                <li><a href="https://plus.google.com/117640766853861804608/posts"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a href="{{ path('contact') }}" class="btn btn-default btn-xs">contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<nav class="navbar yamm text-uppercase">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <div class="navbar-header">
+                    <a href="{{ path('accueil') }}"><img src="{{ asset('resources/logo.png') }}" alt="logo"></a>
+                </div>
+                <ul class="nav navbar-nav ct-navbar--fadeInUp pull-right">
+                    <li class="dropdown">
+                        <a href="{{ path('entreprise_valeurs') }}">L'entreprise</a>
+                        <ul class="dropdown-menu">
+                            {#<li><a href="{{ path('entreprise_historique') }}">Historique</a></li>#}
+                            <li><a href="{{ path('entreprise_valeurs') }}">Nos valeurs</a></li>
+                            <li><a href="{{ path('entreprise_equipe') }}">L'&eacutequipe</a></li>
+                            <li><a href="{{ path('entreprise_lesplus') }}">Les plus d'Adenia</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="{{ path('services_prestations') }}">Nos services</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{ path('services_prestations') }}">Prestations</a></li>
+                            {#<li><a href="{{ path('services_partenariats') }}">Partenariats</a></li>#}
+                        </ul>
+                    </li>
+                    {#<li>#}
+                    {#<a href="{{ path('realisations_references') }}">R&eacute;alisations</a>#}
+                    {#</li>#}
+                    <li class="dropdown">
+                        <a href="{{ path('opensource_opensource_et_moi') }}">Open Source</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{{ path('opensource_opensource_et_moi') }}">L'Open Source et moi</a></li>
+                            <li><a href="{{ path('opensource_philosophie') }}">Philosophie</a></li>
+                            <li><a href="{{ path('opensource_technologies') }}">Technologies</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="{{ path('contact') }}">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>

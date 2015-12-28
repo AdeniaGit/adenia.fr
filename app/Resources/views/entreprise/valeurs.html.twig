@@ -1,0 +1,128 @@
+{% extends 'base.html.twig' %}
+{% block title %} - Valeurs{% endblock %}
+
+{% block body %}
+    <section class="ct-u-paddingTop80 ct-u-paddingBottom60">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="ct-heading--withBorder ct-heading--withBorderGrey ct-u-marginBottom40">
+                        <h1 class="ct-u-colorMotive text-uppercase ct-u-marginBottom10">
+                            Nos valeurs
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ct-u-decoration--triangleBefore ct-u-backgroundMotive">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="ct-u-marginBottom80">
+                        <h4 class="ct-u-colorWhite">
+                            Les fondations d'Adenia reposent sur 4 piliers essentiels
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-productBox">
+                <div class="col-sm-12col-md-6 col-lg-6">
+                    <div class="ct-productBox ct-u-marginBottom50">
+                        <div class="ct-productBox-image">
+                            <div class="ct-productBox-imageContainer">
+                                <img src="{{ asset('resources/respect.png') }}" alt="Le respect">
+                            </div>
+                        </div>
+                        <div class="ct-productBox-Description">
+                            <div class="ct-productBox-DescriptionInner ct-u-marginBottom40">
+                                <h5 class="ct-u-colorMotive text-uppercase ct-u-marginBottom20 ct-fw-700">Le respect</h5>
+                                <p>
+                                    Nous avons &agrave; coeur de respecter nos clients et nos engagements &agrave; chaque
+                                    &eacute;tape de la cr&eacute;ation.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="ct-productBox-Meta"><a href="{{ path('entreprise_lesplus') }}#charte_ethique" class="btn btn-primary btn-xs">Concr&egrave;tement ?</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12col-md-6 col-lg-6">
+                    <div class="ct-productBox ct-u-marginBottom50">
+                        <div class="ct-productBox-image">
+                            <div class="ct-productBox-imageContainer">
+                                <img src="{{ asset('resources/ecoute.png') }}" alt="L'&eacute;coute">
+                            </div>
+                        </div>
+                        <div class="ct-productBox-Description">
+                            <div class="ct-productBox-DescriptionInner ct-u-marginBottom40">
+                                <h5 class="ct-u-colorMotive text-uppercase ct-u-marginBottom20 ct-fw-700">L'&eacute;coute</h5>
+                                <p>
+                                    La compr&eacute;hension du m&eacute;tier de nos clients est indispensable pour la
+                                    r&eacute;ussite des projets. Les &eacute;changes fr&eacute;quents avec nos clients
+                                    leurs permettent d'obtenir un r&eacute;sultat au plus proche de leurs attentes.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="ct-productBox-Meta"><a href="{{ path('entreprise_lesplus') }}#suivi_projet" class="btn btn-primary btn-xs">Et en vrai... ?</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-productBox">
+                <div class="col-sm-12col-md-6 col-lg-6">
+                    <div class="ct-productBox ct-u-marginBottom50">
+                        <div class="ct-productBox-image">
+                            <div class="ct-productBox-imageContainer">
+                                <img src="{{ asset('resources/reactivite.png') }}" alt="La r&eacute;activit&eacute;">
+                            </div>
+                        </div>
+                        <div class="ct-productBox-Description">
+                            <div class="ct-productBox-DescriptionInner ct-u-marginBottom40">
+                                <h5 class="ct-u-colorMotive text-uppercase ct-u-marginBottom20 ct-fw-700">La r&eacute;activit&eacute;</h5>
+                                <p>
+                                    Le monde &eacute;volue vite, et m&ecirc;me de plus en plus vite. Les besoins et
+                                    les attentes &eacute;voluent souvent en cours de projet. Notre r&eacute;activit&eacute;
+                                    est n&eacute;cessaire pour r&eacute;pondre &agrave; ces changement de mani&egrave;re
+                                    efficace.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="ct-productBox-Meta">
+                            <a href="{{ path('entreprise_lesplus') }}#proximite" class="btn btn-primary btn-xs">Comment ?</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12col-md-6 col-lg-6">
+                    <div class="ct-productBox ct-u-marginBottom50">
+                        <div class="ct-productBox-image">
+                            <div class="ct-productBox-imageContainer">
+                                <img src="{{ asset('resources/qualite.png') }}" alt="La qualit&eacute;">
+                            </div>
+                        </div>
+                        <div class="ct-productBox-Description">
+                            <div class="ct-productBox-DescriptionInner ct-u-marginBottom40">
+                                <h5 class="ct-u-colorMotive text-uppercase ct-u-marginBottom20 ct-fw-700">La qualit&eacute;</h5>
+                                <p>
+                                    Nous nous engageons chaque jour pour proposer &agrave; nos clients les technologies
+                                    les plus innovantes et performantes. Gr&acirc;ce &agrave; notre exp&eacute;rience
+                                    et une veille permanente nous assurons &agrave; nos clients un produit fiable,
+                                    ergonomique et moderne.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="ct-productBox-Meta"><a href="{{ path('entreprise_lesplus') }}#experience" class="btn btn-primary btn-xs">C'est par l&agrave;...</a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

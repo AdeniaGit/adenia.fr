@@ -1,0 +1,224 @@
+/*
+body { background: transparent; font: 18px/1.5 sans-serif; }
+h1, h2 { line-height: 1.2; margin: 0 0 .5em; }
+h1 { font-size: 36px; }
+h2 { font-size: 21px; margin-bottom: 1em; }
+p { margin: 0 0 1em 0; }
+a { color: #0000F0; }
+a:hover { text-decoration: none; }
+code { background: #F5F5F5; max-width: 100px; padding: 2px 6px; word-wrap: break-word; }
+#wrapper { background: #FFF; margin: 1em auto; max-width: 800px; width: 95%; }
+#container { padding: 2em; }
+#welcome, #status { margin-bottom: 2em; }
+#welcome h1 span { display: block; font-size: 75%; }
+#icon-status, #icon-book { float: left; height: 64px; margin-right: 1em; margin-top: -4px; width: 64px; }
+#icon-book { display: none; }
+
+@media (min-width: 768px) {
+    #wrapper { width: 80%; margin: 2em auto; }
+    #icon-book { display: inline-block; }
+    #status a, #next a { display: block; }
+
+    @-webkit-keyframes fade-in { 0% { opacity: 0; } 100% { opacity: 1; } }
+    @keyframes fade-in { 0% { opacity: 0; } 100% { opacity: 1; } }
+    .sf-toolbar { opacity: 0; -webkit-animation: fade-in 1s .2s forwards; animation: fade-in 1s .2s forwards;}
+}
+*/
+
+/** ----- MISE EN PAGE TEXTE ----- */
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-accentuate {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.ct-u-colorBlack {
+    color: black;
+}
+
+.bloc-paddingleft-30 {
+    padding-left: 30px;
+}
+
+.accueil-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px #000;
+}
+.ct-u-colorBlack .accueil-title {
+    text-shadow: 2px 2px #fff;
+}
+
+/** ----- HEADER ----- */
+header .ct-slick .ct-slick-content {
+    padding: 150px 0 150px 0;
+}
+.navbar .navbar-nav li:last-child a {
+    padding-right: 18px;
+}
+
+/** ----- FOOTER ----- */
+.redfooter {
+    border-top: 2px solid #fff;
+}
+
+.redfooter a:hover{
+    color: #fff;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .list-inline li {
+    padding-right: 40px;
+}
+
+.ct-information-contact a:hover{
+    text-decoration: underline;
+}
+
+.navbar .btn:hover{
+    text-decoration: none;
+}
+
+/** ----- TITRES ----- */
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+/** ----- AUTRE ----- */
+.ct-textDecoration--underlineBlack {
+    position: relative;
+}
+.ct-textDecoration--underlineBlack:after {
+    content: "";
+    height: 3px;
+    width: 100px;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    background-color: #000;
+}
+.ct-textDecoration--underline:after {
+    width: 100px;
+    bottom: -30px;
+}
+
+.ct-list--circleWithIcons .ct-list-iconContainer {
+    color: #b44479;
+    font-size: 30px;
+    top: 8px;
+}
+
+.ct-list--circleWithIcons .ct-list-iconContainer {
+    background-color: transparent;
+}
+
+.ct-js-googleMap--contact .ct-googleMap {
+    height: 350px;
+}
+
+.ct-form-grey input,
+.ct-form-grey textarea {
+    background-color: #ececec;
+    border-color: #e5e5e5;
+}
+
+.ct-heading--striped .ct-right-extension {
+    height: 100%;
+}
+.ct-heading--striped:before {
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .ct-productBox .ct-productBox-Meta {
+        padding-bottom: 0px;
+        right: 15%;
+        bottom: 40px;
+        position: absolute;
+    }
+}
+@media (max-width: 768px) {
+    .ct-productBox .ct-productBox-Meta {
+        padding-bottom: 0px;
+        right: 25%;
+        bottom: 5px;
+        position: absolute;
+    }
+}
+.ct-productBox .ct-productBox-DescriptionInner {
+    padding: 40px 28px 20px 8px;
+}
+
+@media (min-width: 768px) {
+    .fullsection {
+        display: block;
+    }
+    .mobilesection {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .fullsection {
+        display: none;
+    }
+    .mobilesection {
+        display: block;
+    }
+}
+
+.widget-inner i {
+    color: #b44479;
+    margin-right: 11px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ct-article--bggrey {
+    border-bottom: 2px solid #b44479;
+    padding-top: 30px;
+    background-color: #f9f9f9;
+}
+.ct-sidebar .widget .widget-inner a {
+    padding: 10px 8px;
+}
+
+.list-article .ct-article--bggrey:last-child {
+    border-bottom: none;
+}
+
+a {
+    color: #b44479;
+}
+a:hover,
+a:focus {
+    color: #9b4064;
+}
+
+/****************************************/
+/*      GESTION SLIDER HOME PAGE        */
+/****************************************/
+@media (min-width: 768px) {
+    #home .slick-slide        { height:500px; }
+    #home .slick-slide img    { height:500px; }
+}
+@media (max-width: 768px) {
+    #home .slick-slide        { height:300px; }
+    #home .slick-slide img    { height:300px; }
+}

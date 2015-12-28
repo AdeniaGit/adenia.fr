@@ -1,0 +1,88 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+{#    <section class="ct-u-paddingTop80 ct-u-paddingBottom60">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="ct-heading--withBorder ct-heading--withBorderGrey ct-u-marginBottom40">
+                        <h1 class="ct-u-colorMotive text-uppercase ct-u-marginBottom10">
+                            Plan du site
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>#}
+    <section class="ct-u-paddingTop80 ct-u-paddingBottom60">
+        <div class="container">
+            <div class="ct-sidebar ct-sidebar--grey">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="widget">
+                            <div class="widget-inner">
+                                <h2 class="text-uppercase ct-fw-700 widget-title">Plan du site</h2>
+                                <ul class="list-unstyled text-accentuate">
+                                    <li>
+                                        <a href="{{ path('accueil') }}">
+                                            <i class="fa fa-long-arrow-right"></i>
+                                            Accueil
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ path('entreprise_valeurs') }}">
+                                            <i class="fa fa-long-arrow-right"></i>
+                                            Nos valeurs
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ path('entreprise_equipe') }}">
+                                            <i class="fa fa-long-arrow-right"></i>
+                                            L'&eacutequipe
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ path('entreprise_lesplus') }}">
+                                            <i class="fa fa-long-arrow-right"></i>
+                                            Les plus d'Adenia
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ path('services_prestations') }}">
+                                            <i class="fa fa-long-arrow-right"></i>
+                                            Prestations
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ path('opensource_opensource_et_moi') }}">
+                                            <i class="fa fa-long-arrow-right"></i>
+                                            L'Open Source et moi
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ path('opensource_philosophie') }}">
+                                            <i class="fa fa-long-arrow-right"></i>
+                                            Philosophie
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ path('opensource_technologies') }}">
+                                            <i class="fa fa-long-arrow-right"></i>
+                                            Technologies
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ path('contact') }}">
+                                            <i class="fa fa-long-arrow-right"></i>
+                                            Contact
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

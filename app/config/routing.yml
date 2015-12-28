@@ -1,0 +1,63 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+accueil:
+    path:      /
+    defaults:  { _controller: AppBundle:Default:index }
+
+entreprise_historique:
+    path:      /entreprise/historique
+    defaults:  { _controller: AppBundle:Entreprise:historique }
+
+entreprise_valeurs:
+    path:      /entreprise/valeurs
+    defaults:  { _controller: AppBundle:Entreprise:valeurs }
+
+entreprise_equipe:
+    path:      /entreprise/equipe
+    defaults:  { _controller: AppBundle:Entreprise:equipe }
+
+entreprise_lesplus:
+    path:      /entreprise/lesplus
+    defaults:  { _controller: AppBundle:Entreprise:lesplus }
+
+services_prestations:
+    path:      /services/prestations
+    defaults:  { _controller: AppBundle:Services:prestations }
+#
+#services_partenariats:
+#    path:      /services/partenariats
+#    defaults:  { _controller: AppBundle:Services:partenariats }
+
+realisations_references:
+    path:      /realisations/references
+    defaults:  { _controller: AppBundle:Realisations:references }
+
+opensource_philosophie:
+    path:      /opensource/philosophie
+    defaults:  { _controller: AppBundle:OpenSource:philosophie }
+
+opensource_opensource_et_moi:
+    path:      /opensource/opensource_et_moi
+    defaults:  { _controller: AppBundle:OpenSource:opensourceetmoi }
+
+opensource_technologies:
+    path:      /opensource/technologies
+    defaults:  { _controller: AppBundle:OpenSource:technologies }
+
+contact:
+    path:      /contact
+    defaults:  { _controller: AppBundle:Contact:contact }
+
+contact_sendmessage:
+    path:      /contact/sendmessage
+    defaults:  { _controller: AppBundle:Contact:sendmessage }
+
+plan_site:
+    path:      /plan_du_site
+    defaults:  { _controller: AppBundle:Annexes:plansite }
+
+mentions_legales:
+    path:      /mentions_legales
+    defaults:  { _controller: AppBundle:Annexes:mentionslegales }

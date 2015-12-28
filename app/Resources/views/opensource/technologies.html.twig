@@ -1,0 +1,494 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} - Technologies{% endblock %}
+
+{% block body %}
+    <section class="ct-u-paddingTop80 ct-u-paddingBottom60">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="ct-heading--withBorder ct-heading--withBorderGrey ct-u-marginBottom40">
+                        <h1 class="ct-u-colorMotive text-uppercase ct-u-marginBottom10">
+                            Technologies
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <p class="text-justify">
+                        Les solutions que nous proposons reposent sur un ensemble de technologies faisant partie du
+                        logiciel libre.
+                        <br/>
+                        La combinaison de ces technologies standardis&eacute;es du web nous permet
+                        d'&eacute;laborer des solutions fiables, robustes et &eacute;volutives. Parmis ces composants, on retrouve
+                        des langages, des framework, des librairies, des base de donn&eacute;es, ...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ct-u-paddingTop30 ct-u-paddingBottom30">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div data-adaptiveHeight="true" data-animations="true" data-autoplay="true" data-infinite="true" data-autoplaySpeed="3000" data-draggable="true"
+                         data-touchMove="false" data-arrows="true" data-dots="false" data-XSitems="2" data-SMitems="3" data-MDitems="4" data-LGitems="6" data-items="1"
+                         class="ct-slick ct-js-slick ct-slick--arrowsTopBlue text-center">
+
+                        <div class="item">
+                            <a target="_blank" href="http://www.linux.org/" title="www.linux.org" class="ct-gallery-itemHoverSquare">
+                                <figure class="ct-gallery-item">
+                                    <img src="{{ asset('resources/techno_slide/Linux-kernel-logo.png') }}" alt="Linux">
+                                    <figcaption class="ct-u-colorWhite text-uppercase">
+                                        <div class="ct-u-displayTableVertical">
+                                            <div class="ct-u-displayTableCell text-left">
+                                                <h6 class="ct-gallery-itemTitle ct-fw-700">Syst&egrave;me d'exploitation GNU/Linux</h6>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a target="_blank" href="http://www.apache.org/" title="www.linux.org" class="ct-gallery-itemHoverSquare">
+                                <figure class="ct-gallery-item">
+                                    <img src="{{ asset('resources/techno_slide/apache-logo.png') }}" alt="Apache">
+                                    <figcaption class="ct-u-colorWhite text-uppercase">
+                                        <div class="ct-u-displayTableVertical">
+                                            <div class="ct-u-displayTableCell text-left">
+                                                <h6 class="ct-gallery-itemTitle ct-fw-700">Apache HTTP Server</h6>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a target="_blank" href="https://www.php.net/" title="www.php.net" class="ct-gallery-itemHoverSquare">
+                                <figure class="ct-gallery-item">
+                                    <img src="{{ asset('resources/techno_slide/logo_php.png') }}" alt="PHP">
+                                    <figcaption class="ct-u-colorWhite text-uppercase">
+                                        <div class="ct-u-displayTableVertical">
+                                            <div class="ct-u-displayTableCell text-left">
+                                                <h6 class="ct-gallery-itemTitle ct-fw-700">Langage PHP : Hypertext Preprocessor</h6>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a target="_blank" href="https://symfony.com/" title="symfony.com" class="ct-gallery-itemHoverSquare">
+                                <figure class="ct-gallery-item">
+                                    <img src="{{ asset('resources/techno_slide/symfony_black_03.png') }}" alt="Symfony2">
+                                    <figcaption class="ct-u-colorWhite text-uppercase">
+                                        <div class="ct-u-displayTableVertical">
+                                            <div class="ct-u-displayTableCell text-left">
+                                                <h6 class="ct-gallery-itemTitle ct-fw-700">Php Framework Symfony 2</h6>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a target="_blank" href="http://www.doctrine-project.org/" title="www.doctrine-project.org" class="ct-gallery-itemHoverSquare">
+                                <figure class="ct-gallery-item">
+                                    <img src="{{ asset('resources/techno_slide/logo-doctine-twitter.png') }}" alt="Doctrine">
+                                    <figcaption class="ct-u-colorWhite text-uppercase">
+                                        <div class="ct-u-displayTableVertical">
+                                            <div class="ct-u-displayTableCell text-left">
+                                                <h6 class="ct-gallery-itemTitle ct-fw-700">ORM Doctrine</h6>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a target="_blank" href="http://twig.sensiolabs.org/" title="twig.sensiolabs.org" class="ct-gallery-itemHoverSquare">
+                                <figure class="ct-gallery-item">
+                                    <img src="{{ asset('resources/techno_slide/twig-logo.png') }}" alt="TWIG">
+                                    <figcaption class="ct-u-colorWhite text-uppercase">
+                                        <div class="ct-u-displayTableVertical">
+                                            <div class="ct-u-displayTableCell text-left">
+                                                <h6 class="ct-gallery-itemTitle ct-fw-700">Moteur de Template TWIG</h6>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a target="_blank" href="http://www.postgresql.org/" title="www.postgresql.org" class="ct-gallery-itemHoverSquare">
+                                <figure class="ct-gallery-item">
+                                    <img src="{{ asset('resources/techno_slide/postgresql_logo.png') }}" alt="PostgreSQL">
+                                    <figcaption class="ct-u-colorWhite text-uppercase">
+                                        <div class="ct-u-displayTableVertical">
+                                            <div class="ct-u-displayTableCell text-left">
+                                                <h6 class="ct-gallery-itemTitle ct-fw-700">SGBD relationnel et objet PostgreSQL</h6>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a target="_blank" href="https://mariadb.org/" title="mariadb.org" class="ct-gallery-itemHoverSquare">
+                                <figure class="ct-gallery-item">
+                                    <img src="{{ asset('resources/techno_slide/Logo-MariaDB.png') }}" alt="MariaDB">
+                                    <figcaption class="ct-u-colorWhite text-uppercase">
+                                        <div class="ct-u-displayTableVertical">
+                                            <div class="ct-u-displayTableCell text-left">
+                                                <h6 class="ct-gallery-itemTitle ct-fw-700">SGBD relationnel MariaDB</h6>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a target="_blank" href="http://getbootstrap.com/" title="getbootstrap.com" class="ct-gallery-itemHoverSquare">
+                                <figure class="ct-gallery-item">
+                                    <img src="{{ asset('resources/techno_slide/bootstrap-logo.png') }}" alt="Bootstrap 3">
+                                    <figcaption class="ct-u-colorWhite text-uppercase">
+                                        <div class="ct-u-displayTableVertical">
+                                            <div class="ct-u-displayTableCell text-left">
+                                                <h6 class="ct-gallery-itemTitle ct-fw-700">Framework Css Bootstrap</h6>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a target="_blank" href="https://angularjs.org/" title="angularjs.org" class="ct-gallery-itemHoverSquare">
+                                <figure class="ct-gallery-item">
+                                    <img src="{{ asset('resources/techno_slide/AngularJs.png') }}" alt="AngularJS">
+                                    <figcaption class="ct-u-colorWhite text-uppercase">
+                                        <div class="ct-u-displayTableVertical">
+                                            <div class="ct-u-displayTableCell text-left">
+                                                <h6 class="ct-gallery-itemTitle ct-fw-700">Framework Javascript AngularJS</h6>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a target="_blank" href="https://jquery.org/" title="jquery.org" class="ct-gallery-itemHoverSquare">
+                                <figure class="ct-gallery-item">
+                                    <img src="{{ asset('resources/techno_slide/jquery-logo.png') }}" alt="JQuery">
+                                    <figcaption class="ct-u-colorWhite text-uppercase">
+                                        <div class="ct-u-displayTableVertical">
+                                            <div class="ct-u-displayTableCell text-left">
+                                                <h6 class="ct-gallery-itemTitle ct-fw-700">Librairie Javascript JQuery</h6>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ct-divider--grey ct-u-marginTop40"></div>
+        </div>
+    </section>
+
+    <section class="ct-blog ct-u-paddingBottom20">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="ct-sidebar ct-sidebar ct-sidebar--bggrey" id="FixedDiv" style="position: relative; ">
+                        <div class="widget widget-filter">
+                            <div class="widget-inner">
+                                <h6 class="text-uppercase ct-fw-700 widget-title"> Technologies</h6>
+                                <div class="navbar-wrapper">
+                                    <ul class="list-unstyled navbar-nav-left">
+                                        <li class="onepage"><a class="text-capitalize" href="#"><i class="fa fa-cubes"></i> PHP</a></li>
+                                        <li class="onepage"><a class="text-capitalize" href="#"><i class="fa fa-cubes"></i> Symfony 2</a></li>
+                                        <li class="onepage"><a class="text-capitalize" href="#"><i class="fa fa-cubes"></i> PostgreSQL</a></li>
+                                        <li class="onepage"><a class="text-capitalize" href="#"><i class="fa fa-cubes"></i> Bootstrap</a></li>
+                                        <li class="onepage"><a class="text-capitalize" href="#"><i class="fa fa-cubes"></i> jQuery</a></li>
+                                        <li class="onepage"><a class="text-capitalize" href="#"><i class="fa fa-cubes"></i> AngularJs</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-9 col-lg-9 list-article">
+                    <article class="ct-article ct-fw-600 ct-article--bggrey section" id="articlePhp" itemtype="http://schema.org/BlogPosting" itemscope="" itemprop="blogPost">
+                        <div class="ct-article-media">
+                            <a itemprop="url" target="_blank" href="https://secure.php.net/" class="ct-gallery-itemShadowHoverLeft">
+                                <img itemprop="image" alt="PHP" src="{{  asset('/resources/PHP-logo.svg.png') }}">
+                            </a>
+                        </div>
+                        <div class="ct-article-body">
+                            <div class="ct-article-title">
+                                <h2 class="ct-u-colorMotive text-uppercase ct-u-marginBottom10">le langage PHP</h2>
+                            </div>
+                            <div class="ct-article-description" itemprop="text">
+                                <p class="text-justify">
+                                    PHP est un langage de scripts g&eacute;n&eacute;raliste et Open Source, sp&eacute;cialement con&ccedil;u pour le d&eacute;veloppement d'applications web.<br>
+                                    PHP est le langage de d&eacute;veloppement Web le plus utilis&eacute;. Il est gratuit et ne n&eacute;cessite aucune licence d'utilisation. Il existe une communaut&eacute; de d&eacute;veloppeurs tr&egrave;s active qui rend disponibles des dizaines de milliers de librairies de grande qualit&eacute; ainsi qu'une vaste quantit&eacute; de documentation et tutoriels pour le b&eacute;n&eacute;fice de chacun.<br>
+                                    En termes de rapidit&eacute; et d'efficacit&eacute;, PHP est &eacute;quivalent aux autres langages. Plusieurs portails tr&egrave;s populaires et n&eacute;cessitants beaucoup de performance l'utilisent (Facebook, Yahoo, le r&eacute;seau CBC, …). PHP a &eacute;t&eacute; sp&eacute;cifiquement con&ccedil;u pour le Web et s'interface donc bien avec les technologies du Web tel que le XML, les API, les services distants, les divers navigateurs, etc.
+                                </p>
+                                <div class=" text-center">
+                                    <a class="btn-primary btn-lg btn text-uppercase" itemprop="url" target="_blank" href="https://secure.php.net/">
+                                        Php.net
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="ct-article ct-fw-600 ct-article--bggrey section" itemtype="http://schema.org/BlogPosting" itemscope="" itemprop="blogPost" id="articleSymfony">
+                        <div class="ct-article-media">
+                            <a itemprop="url" target="_blank" href="https://symfony.com/" class="ct-gallery-itemShadowHoverLeft">
+                                <img itemprop="image" alt="Blog Post" src="{{  asset('/resources/symfony_black_02.png') }}" class="ct-u-marginBoth20">
+                            </a>
+                        </div>
+                        <div class="ct-article-body">
+                            <div class="ct-article-title">
+                                <h2 class="ct-u-colorMotive text-uppercase ct-u-marginBottom10">Le framework Symfony 2</h2>
+                            </div>
+                            <div class="ct-article-description" itemprop="text">
+                                <p class="text-justify">
+                                    L'utilisation d'un framework permet de r&eacute;pondre en partie au besoin d'architecture
+                                    lors de la r&eacute;alisation d'une application et notamment :
+                                </p>
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-long-arrow-right"></i> De d&eacute;couper la logique du code source</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> De factoriser en composants communs, de r&eacute;utiliser du code</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> D'ajouter une couche m&eacute;tier</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> De s&eacute;parer les logiques techniques / m&eacute;tiers (d&eacute;veloppeurs) et les logiques de pr&eacute;sentation (designers / int&eacute;grateurs)</li>
+                                    <li><i class="fa fa-long-arrow-right"></i> De faciliter la maintenance et l'&eacute;volutivit&eacute;</li>
+                                </ul>
+                                <p class="text-justify">
+                                    <br>
+                                    Lanc&eacute; en 2005, Symfony2 est un puissant framework open source PHP5.
+                                    Consid&eacute;r&eacute; aujourd'hui comme le framework PHP de r&eacute;f&eacute;rence,
+                                    il dispose d'une communaut&eacute; active de d&eacute;veloppeurs, int&eacute;grateurs,
+                                    utilisateurs et d'autres contributeurs qui participent &agrave; l'enrichissement continu
+                                    de l'outil, assurant ainsi sa p&eacute;rennit&eacute;.
+                                    <br><br>
+                                    Ce framework permet de r&eacute;aliser une application structur&eacute;e,
+                                    maintenable et &eacute;volutive.
+                                    <br>
+                                    Pour cela, Symfony met notamment &agrave; disposition des concepteurs les
+                                    fonctionnalit&eacute;s suivantes :
+                                </p>
+                                <h3>- Relation avec la base de donn&eacute;es :</h3>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p class="text-justify">
+                                            Symfony utilise PDO, une solution qui permet d'ajouter une couche d'abstraction
+                                            entre la base de donn&eacute;es et le code de l'application,
+                                            quel que soit le type de base de donn&eacute;es utilis&eacute;.
+                                            <br>
+                                            Cette couche d'abstraction offre un confort d'utilisation performant.
+                                            <br><br>
+                                            Symfony embarque aussi un ORM (Object Relational Mapper) appel&eacute;
+                                            Doctrine, qui permet d'installer une couche d'abstraction suppl&eacute;mentaire
+                                            entre les appels &agrave; la base de donn&eacute;es et le code de l'application.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4"><img src="{{  asset('/resources/PHP-PDO-Pilotes.png') }}"></div>
+                                </div>
+
+                                <br>
+                                <h3>- Moteur de template Twig :</h3>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-3"><img src="{{  asset('/resources/twig-php-template-framework.png') }}"></div>
+                                    <div class="col-md-9">
+                                        <p class="text-justify">
+                                            Symfony int&egrave;gre un moteur de template qui permet de simplifier grandement
+                                            l'&eacute;criture et la r&eacute;utilisation du code HTML.
+                                            <br>
+                                            Tr&egrave;s puissant, Twig permet de g&eacute;rer de l'h&eacute;ritage entre templates
+                                            et layouts, et de s&eacute;parer les couches de pr&eacute;sentation et couches
+                                            m&eacute;tiers.
+                                        </p>
+                                    </div>
+                                </div>
+                                <br>
+                                <h3>- Architecture MVC :</h3>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p class="text-justify">
+                                            L'architecture MVC (Mod&egrave;le / Vue / Contr&ocirc;leur) est un patron de
+                                            conception standard utilis&eacute; et connu par tous les d&eacute;veloppeurs.
+                                            Elle permet de normaliser la structure globale d'une application et de faciliter
+                                            le dialogue entre les concepteurs. Cela facilite ainsi la maintenance
+                                            et l'&eacute;volution de l'application.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4"><img src="{{  asset('/resources/architecture_mvc.png') }}"></div>
+                                </div>
+                                <br>
+                                <div class=" text-center">
+                                    <a class="btn-primary btn-lg btn text-uppercase" itemprop="url" target="_blank" href="https://symfony.com/">
+                                        Symfony.com
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="ct-article ct-fw-600 ct-article--bggrey section" id="articlePostgresql" itemtype="http://schema.org/BlogPosting" itemscope="" itemprop="blogPost">
+                        <div class="ct-article-media">
+                            <a itemprop="url" target="_blank" href="http://www.postgresqlfr.org/" class="ct-gallery-itemShadowHoverLeft">
+                                <img itemprop="image" alt="PostgreSQL" src="{{  asset('/resources/postgresql-logo.png') }}" class="">
+                            </a>
+                        </div>
+                        <div class="ct-article-body">
+                            <div class="ct-article-title">
+                                <h2 class="ct-u-colorMotive text-uppercase ct-u-marginBottom10">PostgreSQL</h2></div>
+                            <div class="ct-article-description" itemprop="text">
+                                <p class="text-justify">
+                                    PostgreSQL est un syst&egrave;me de gestion de base de donn&eacute;es relationnelle
+                                    et objet (SGBDRO).
+                                    <br>
+                                    C'est un outil libre disponible selon les termes d'une licence de type BSD. Comme
+                                    les projets libres, PostgreSQL n'est pas contr&ocirc;l&eacute; par une seule
+                                    entreprise, mais est fond&eacute; sur une communaut&eacute; mondiale de d&eacute;veloppeurs
+                                    et d'entreprises.
+                                </p>
+                                <div class=" text-center">
+                                    <a class="btn-primary btn-lg btn text-uppercase" itemprop="url" target="_blank" href="http://www.postgresqlfr.org/">
+                                        PostgreSQL
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="ct-article ct-fw-600 ct-article--bggrey section" id="articleBootstrap" itemtype="http://schema.org/BlogPosting" itemscope="" itemprop="blogPost">
+                        <div class="ct-article-media">
+                            <a itemprop="url" target="_blank" href="http://getbootstrap.com/"  class="ct-gallery-itemShadowHoverLeft">
+                                <img itemprop="image" alt="Bootstrap" src="{{  asset('/resources/bootstrap-logo.png') }}" class="">
+                            </a>
+                        </div>
+                        <div class="ct-article-body">
+                            <div class="ct-article-title"><h2 class="ct-u-colorMotive text-uppercase ct-u-marginBottom10">Bootstrap</h2></div>
+                            <div class="ct-article-description" itemprop="text">
+                                <p class="text-justify">
+                                    Bootstrap est un kit CSS cr&eacute;&eacute; par les d&eacute;veloppeurs de Twitter
+                                    et qui est devenu en peu de temps le framework HTML/CSS de r&eacute;f&eacute;rence.
+                                    Il permet de construire rapidement et facilement des sites web esth&eacute;tiques et
+                                    responsives.
+                                    <br>
+                                    Bootstrap offre aussi des plugins jQuery de qualit&eacute; pour enrichir l'exp&eacute;rience
+                                    de l'utilisateur. Depuis la version 2.0, Bootstrap est adaptatif (ou responsive),
+                                    c'est-&agrave;-dire qu'il s'adapte &agrave; la largeur du navigateur sur le support
+                                    pour proposer une navigation optimale aux internautes.
+                                    <br/>
+                                    Il est aujourd'hui disponible en version 3.
+                                </p>
+                                <div class=" text-center">
+                                    <a class="btn-primary btn-lg btn text-uppercase" itemprop="url" target="_blank" href="http://getbootstrap.com/">
+                                        Bootstrap
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="ct-article ct-fw-600 ct-article--bggrey section" id="articleJQuery" itemtype="http://schema.org/BlogPosting" itemscope="" itemprop="blogPost">
+                        <div class="ct-article-media">
+                            <a itemprop="url" target="_blank" href="https://jquery.com/"  class="ct-gallery-itemShadowHoverLeft">
+                                <img itemprop="image" alt="JQuery" src="{{  asset('/resources/JQuery_logo.svg.png') }}" class="">
+                            </a>
+                        </div>
+                        <div class="ct-article-body">
+                            <div class="ct-article-title"><h2 class="ct-u-colorMotive text-uppercase ct-u-marginBottom10">JQuery</h2></div>
+                            <div class="ct-article-description" itemprop="text">
+                                <p class="text-justify">
+                                    jQuery est une biblioth&egrave;que JavaScript libre multiplateforme cr&eacute;&eacute;e
+                                    pour faciliter l'&eacute;criture de scripts c&ocirc;t&eacute; client dans le code HTML
+                                    des pages web.
+                                    <br>
+                                    Les fonctionnalit&eacute;s principales de cette biblioth&egrave;que permettent notamment
+                                    le parcours et la modification du DOM, la gestion des &eacute;v&eacute;nements,
+                                    la gestion d'effets visuels et d'animations, la manipulation des styles CSS,
+                                    le requetage Ajax et la gestion de Plugins.
+                                </p>
+                                <div class=" text-center">
+                                    <a class="btn-primary btn-lg btn text-uppercase" itemprop="url" target="_blank" href="https://jquery.com/">
+                                        jQuery.com
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="ct-article ct-fw-600 ct-article--bggrey section" id="articleAngularJs" itemtype="http://schema.org/BlogPosting" itemscope="" itemprop="blogPost">
+                        <div class="ct-article-media">
+                            <a itemprop="url" target="_blank" href="https://angularjs.org/"  class="ct-gallery-itemShadowHoverLeft">
+                                <img itemprop="image" alt="AngularJs" src="{{  asset('/resources/AngularJS_logo.svg.png') }}" class="">
+                            </a>
+                        </div>
+                        <div class="ct-article-body">
+                            <div class="ct-article-title"><h2 class="ct-u-colorMotive text-uppercase ct-u-marginBottom10">AngularJs</h2></div>
+                            <div class="ct-article-description" itemprop="text">
+                                <p class="text-justify">
+                                    AngularJS fait partie de la nouvelle vague de frameworks JavaScript et s'inscrit dans
+                                    un mouvement d'innovation c&ocirc;t&eacute; client, permettant de structurer le code
+                                    et d'imposer une architecture.
+                                    <br>
+                                    &Agrave; la diff&eacute;rence de jQuery, AngularJS est un v&eacute;ritable framework,
+                                    il “impose” donc une certaine structure dans le code.
+                                    <br>
+                                    C'est un framework MVC (Model View Controlleur) Javascript.
+                                </p>
+                                <div class=" text-center">
+                                    <a class="btn-primary btn-lg btn text-uppercase" itemprop="url" target="_blank" href="https://angularjs.org/">
+                                        AngularJs
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
+{% block javascripts %}
+    <script src="{{ asset('assets/js/onepager/jquery.pagescroller.lite.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('assets/js/onepager/init.js') }}" type="text/javascript"></script>
+
+    <script  type="text/javascript">
+
+        $(function(){
+
+            var origin = $('#FixedDiv').offset().top;
+            $(window).scroll(function() {
+                var top  = $(this).scrollTop();
+                if(top>origin)
+                    $('#FixedDiv').animate({top:$(this).scrollTop()-origin+20}, 25, "linear");
+                else
+                    $('#FixedDiv').animate({top:$("#articlePhp").scrollTop()}, 25, "linear");
+            });
+        })
+
+    </script>
+{% endblock %}

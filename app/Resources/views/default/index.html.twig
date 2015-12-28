@@ -1,0 +1,112 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <section style="padding-top: 1px;">
+        <div class="row">
+            <div class="col-sm-12 col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2">
+                <header id="home" class="ct-u-colorWhite text-left">
+                    <div data-adaptiveHeight="true" data-animations="true" data-autoplay="true" data-infinite="true"
+                         data-autoplaySpeed="6000" data-draggable="true" data-touchMove="false" data-arrows="true" data-dots="true"
+                         data-items="1" class="ct-slick ct-js-slick">
+                        <div data-bg="{{ asset('resources/accueil2.jpg') }}" class="item">
+                            <div class="ct-slick-inner">
+                                <div class="ct-slick-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-6 col-md-5 col-lg-5 col-sm-offset-5 col-md-offset-4 col-lg-offset-4
+                                            ct-u-colorBlack">
+                                                <p class="ct-textDecoration--underlineBlack ct-u-marginBottom60 accueil-title">
+                                                    Votre m&eacute;tier, Notre objectif
+                                                </p>
+                                                <p class="ct-u-marginBottom50 ct-fw-300 text-accentuate">
+                                                    Nous cr&eacute;ons pour vous des solutions web adapt&eacute;es
+                                                    &agrave; votre m&eacute;tier.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-bg="{{ asset('resources/accueil1.jpg') }}" class="item">
+                            <div class="ct-slick-inner">
+                                <div class="ct-slick-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-7 col-md-7 col-lg-6  col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+                                                <p class="ct-textDecoration--underline ct-u-marginBottom60 accueil-title">
+                                                    Votre solution o&ugrave; vous voulez, quand vous voulez...
+                                                </p>
+                                                <p class="ct-u-marginBottom50 ct-fw-300 text-accentuate">
+                                                    Publique ou priv&eacute;e, votre solution web compl&egrave;te vous suit
+                                                    partout et sur tous les supports !
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-bg="{{ asset('resources/accueil3.jpg') }}" class="item">
+                            <div class="ct-slick-inner">
+                                <div class="ct-slick-content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-7 col-md-7 col-lg-6  col-sm-offset-1 col-md-offset-1 col-lg-offset-1
+                                            ct-u-colorBlack">
+                                                <p class="ct-textDecoration--underlineBlack ct-u-marginBottom60 accueil-title">
+                                                    Analyse, D&eacute;veloppement, Formation
+                                                </p>
+                                                <p class="ct-u-marginBottom50 ct-fw-300 text-accentuate">
+                                                    Nous analysons avec vous votre besoin, nous cr&eacute;ons votre solution
+                                                    et vous formons pour une prise en main rapide et efficace.
+                                                </p>
+                                                <a href="{{ path('contact') }}" class="btn btn-primary text-uppercase">
+                                                    Devis gratuit
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+        </div>
+    </section>
+    <section class="ct-u-paddingTop80 ct-u-paddingBottom60">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="ct-heading--withBorder ct-heading--withBorderGrey ct-u-marginBottom40">
+                        <h1 class="ct-u-colorMotive text-uppercase ct-u-marginBottom10">
+                            Bonjour et bienvenue sur le site d'Adenia
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <p>
+                        Adenia est une entreprise de service informatique d&eacute;di&eacute;e &agrave; la
+                        cr&eacute;ation de solutions web r&eacute;pondant
+                        <span class="text-accentuate">sp&eacute;cifiquement</span> &agrave; votre besoin. La
+                        compr&eacute;hension de vos attentes et votre implication &agrave; chaque &eacute;tape de la cr&eacute;ation
+                        de votre projet sont &agrave; la base de votre satisfaction. Votre solution personnalis&eacute;e vous
+                        permettra d'augmenter
+                        votre <span class="text-accentuate">visibilit&eacute;</span>,
+                        votre <span class="text-accentuate">confort</span> d'utilisation,
+                        votre <span class="text-accentuate">productivit&eacute;</span>
+                        et donc votre <span class="text-accentuate">chiffre d'affaires</span>.
+                        Simplifiez-vous la vie, n'h&eacute;sitez pas &agrave; <a href="{{ path('contact') }}">nous contacter</a>.
+                        <br/>
+                        <br/>Sur ce site vous trouverez nos valeurs, nos prestations,
+                        notre vision de l'OpenSource, les plus d'Adenia et tous les contacts utiles. En esp&eacute;rant
+                        vous compter bient&ocirc;t parmi nos partenaires, nous vous souhaitons une agr&eacute;able visite.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

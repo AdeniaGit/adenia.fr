@@ -1,0 +1,126 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <section class="ct-u-paddingTop80 ct-u-paddingBottom20">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="ct-heading--withBorder ct-heading--withBorderGrey ct-u-marginBottom40">
+                        <h1 class="ct-u-colorMotive text-uppercase ct-u-marginBottom10">
+                            Nous contacter
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ct-u-paddingTop30 ct-u-paddingBottom30">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="ct-textBox--small ct-u-backgroundGrey">
+                        <ul class="list-unstyled ct-list--circleWithIcons ct-list--circleWithIcons-bordered">
+                            <li><span class="ct-list-iconContainer"><i class="fa fa-map-marker"></i></span>
+                                <h3 class="ct-u-marginBottom10">Adresse</h3>
+                                <p>
+                                    21 Boulevard Paul C&eacute;zanne<br/>
+                                    63400 CHAMALI&Egrave;RES<br/>
+                                </p>
+                            </li>
+                            <li><span class="ct-list-iconContainer"><i class="fa fa-phone"></i></span>
+                                <h3 class="ct-u-marginBottom10">T&eacute;l&eacute;phone</h3>
+                                <a href="tel:0667109515">(+33)6 67 10 95 15</a>
+                            </li>
+                            <li><span class="ct-list-iconContainer"><i class="fa fa-envelope"></i></span>
+                                <h3 class="ct-u-marginBottom10">Email</h3>
+                                <a href="mailto:contact@adenia.fr">contact@adenia.fr</a>
+                            </li>
+                            <li><span class="ct-list-iconContainer"><i class="fa fa-clock-o"></i></span>
+                                <h3 class="ct-u-marginBottom10">Horaires</h3>
+                                <p>
+                                    Du lundi au vendredi
+                                    <br/>
+                                    8h30 - 12h et 14h - 18h
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                    <div class="ct-js-googleMap--contact"></div>
+                </div>
+            </div>
+            <div class="row ct-u-marginTop20">
+                <div class="col-sm-12 col-md-9 col-lg-9">
+                    <div class="ct-heading--withBorder ct-heading--withBorderGrey ct-u-marginBottom40">
+                        <h2 class="ct-u-colorMotive text-uppercase ct-u-marginBottom10">
+                            Nous envoyer un message
+                        </h2>
+                    </div>
+                    <form action="{{ path('contact_sendmessage') }}" method="POST"
+                          class="validateIt ct-u-marginBottom30 ct-form ct-form-grey" data-show-errors="true">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6" style="padding-left: 5px; padding-right: 15px;">
+                                <input id="contact_name" data-error-message="Nom" placeholder="Nom" type="text"
+                                       required="" name="nom" title="Nom"
+                                       class="form-control input--withBorder ct-u-marginBottom10 input-focusMotive">
+                                <label for="contact_name" class="sr-only"></label>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <input id="contact_email" data-error-message="Email" placeholder="Email" type="email"
+                                       required="" name="email" title="Email"
+                                       class="form-control input--withBorder ct-u-marginBottom10 input-focusMotive">
+                                <label for="contact_email" class="sr-only"></label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <input id="contact_subject" data-error-message="Sujet" placeholder="Sujet" type="text"
+                                       required="" name="sujet" title="Sujet"
+                                       class="form-control input--withBorder ct-u-marginBottom10 input-focusMotive">
+                                <label for="contact_subject" class="sr-only"></label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <textarea id="contact_message" data-error-message="Message" placeholder="Saisissez votre message ici..."
+                                          rows="8" required="" name="message" title="Message"
+                                          class="form-control input--withBorder ct-u-marginBottom20 input-focusMotive ct-u-marginBottom20"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <button class="btn btn-primary btn-lg text-uppercase btn-envoyer" onclick="clearmessages()">Envoyer</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12" style="padding-left: 15px;">
+                            <div role="alert" class="successMessage alert alert-success alert-dismissible">
+                                <button type="button" data-dismiss="alert" aria-label="Close" class="close">
+                                    <span aria-hidden="true">X</span>
+                                </button>
+                                <strong>Votre message a bien &eacute;t&eacute; envoy&eacute;.</strong>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12" style="padding-left: 15px;">
+                            <div role="alert" class="errorMessage alert alert-danger alert-dismissible">
+                                <button type="button" data-dismiss="alert" aria-label="Close" class="close">
+                                    <span aria-hidden="true">X</span>
+                                </button>
+                                <strong>Erreur <br/></strong>Une erreur a &eacute;t&eacute; rencontr&eacute;e lors de l'envoie du
+                                message. Vous pouvez contacter l'administrateur pour plus d'informations.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
+{% block javascripts %}
+    <script id="googleMap" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places,geometry"></script>
+    <script src="{{ asset('assets/js/jQueryShopLocator/src/shop-locator.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('assets/js/jQueryShopLocator/init.js') }}" type="text/javascript"></script>
+{% endblock %}

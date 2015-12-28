@@ -1,0 +1,61 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} - Philisophie du logiciel libre{% endblock %}
+
+{% block body %}
+    <section class="ct-u-paddingTop80 ct-u-paddingBottom60">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="ct-heading--withBorder ct-heading--withBorderGrey ct-u-marginBottom40">
+                        <h1 class="ct-u-colorMotive text-uppercase ct-u-marginBottom10">
+                            Philosophie du logiciel libre
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ct-u-paddingTop10 ct-u-paddingBottom40">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="ct-image--border">
+                        <img alt="media" src="{{  asset('/resources/logo-source-libre-nature.png') }}" >
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                    <p class="text-justify">
+                        On entend par un logiciel « libre » qu'il respecte les libertés essentielles de l'utilisateur :
+                        la liberté de l'utiliser, de l'étudier, de le modifier et d'en redistribuer des copies, modifiées
+                        ou non.
+                        <br>
+                        Ces libertés sont d'une importance vitale. Elles sont essentielles, pour les enjeux individuels des
+                        utilisateurs, et parce qu'elles favorisent le partage et la coopération qui fondent la solidarité sociale.
+                        Elles prennent encore plus d'importance alors que notre culture et nos activités quotidiennes se
+                        numérisent.
+                        <br>
+                        Dans un monde de sons, d'images et de mots numériques, le logiciel libre devient de plus en plus
+                        nécessaire pour la liberté en général.
+                        <br><br>
+                        A certains égards, l'open source est un mouvement humaniste.
+                        <br>
+                        Il considère que le logiciel est, à la manière de la connaissance scientifique, une forme de
+                        patrimoine de l'humanité, un bien commun que nous enrichissons collectivement, pour le bien être de tous.
+                        <br><br>
+                        L'approche moderne du développement consiste à assembler des composants, grands et petits,
+                        pour l'essentiel open source.
+                        Une part déterminante du développement consiste donc à sélectionner les bons composants et
+                        les intégrer, en ne développant réellement que les parties spécifiques, qui concentrent la valeur
+                        ajoutée de l'application.
+                        Les composants OpenSource avec lesquels nous élaborons nos solutions nous appportent
+                        d'importants gains de qualité et de productivité.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

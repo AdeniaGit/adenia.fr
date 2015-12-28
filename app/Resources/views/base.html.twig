@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Adenia{% block title %}{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/bootstrap.css') }}"/>
+        <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}"/>
+        <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/motive/motive-parties.css') }}"/>
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" />
+        <!--[if lt IE 9]> -->
+        <script src="{{ asset('assets/js/html5shiv.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('assets/js/respond.min.js') }}" type="text/javascript"></script>
+        <!--[endif]-->
+        <script src="{{ asset('assets/js/modernizr.custom.js') }}" type="text/javascript"></script>
+    </head>
+    <body class="cssAnimate ct-headroom--scrollUpMenu">
+    <!-- affiche le loader -->
+        <div class="ct-preloader">
+            <div class="ct-preloader-content"></div>
+        </div>
+
+        {{ include('default/headermobile.html.twig') }}
+
+        <div id="ct-js-wrapper" class="ct-pageWrapper">
+            {{ include('default/header.html.twig') }}
+
+            {% block body %}{% endblock %}
+
+            {{ include('default/footer.html.twig') }}
+        </div>
+        <script src="{{ asset('assets/js/jquery.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('assets/js/light-gallery/js/lightGallery.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('assets/js/main-compiled.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('assets/js/magnific-popup/jquery.magnific-popup.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('assets/js/magnific-popup/init.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('assets/js/isotope/jquery.isotope.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('assets/js/isotope/imagesloaded.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('assets/js/isotope/infinitescroll.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('assets/js/isotope/init.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('assets/js/adenia.js') }}" type="text/javascript"></script>
+
+        {% block javascripts %}
+        {% endblock %}
+    </body>
+</html>
