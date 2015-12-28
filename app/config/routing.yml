@@ -39,7 +39,7 @@ opensource_philosophie:
     defaults:  { _controller: AppBundle:OpenSource:philosophie }
 
 opensource_opensource_et_moi:
-    path:      /opensource/opensource_et_moi
+    path:      /opensource/opensource-et-moi
     defaults:  { _controller: AppBundle:OpenSource:opensourceetmoi }
 
 opensource_technologies:
@@ -55,9 +55,9 @@ contact_sendmessage:
     defaults:  { _controller: AppBundle:Contact:sendmessage }
 
 plan_site:
-    path:      /plan_du_site
+    path:      /plan-du-site
     defaults:  { _controller: AppBundle:Annexes:plansite }
 
 mentions_legales:
-    path:      /mentions_legales
+    path:      /mentions-legales
     defaults:  { _controller: AppBundle:Annexes:mentionslegales }
