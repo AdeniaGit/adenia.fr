@@ -203,13 +203,8 @@ h3 {
     border-bottom: none;
 }
 
-a {
-    color: #b44479;
-}
-a:hover,
-a:focus {
-    color: #9b4064;
-}
+a { color: #b44479; }
+a:hover, a:focus {  color: #9b4064; }
 
 /****************************************/
 /*      GESTION SLIDER HOME PAGE        */
@@ -222,3 +217,6 @@ a:focus {
     #home .slick-slide        { height:300px; }
     #home .slick-slide img    { height:300px; }
 }
+
+.ct-topBar a:hover, .ct-topBar a:focus { color: #fff; }
+.logo-viadeo { width: 20px; margin-bottom: 4px; }
