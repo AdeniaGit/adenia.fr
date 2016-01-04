@@ -1,6 +1,8 @@
 {% extends 'base.html.twig' %}
 
 {% block title %} - Technologies{% endblock %}
+{% block description %}Liste des technologies et langages que nous utilisons pour nos développements.{% endblock %}
+{% block keywords %}technologies PHP Symfony PostgreSQL Bootstrap JQuery AngularJS{% endblock %}
 
 {% block body %}
     <section class="ct-u-paddingTop80 ct-u-paddingBottom60">
@@ -70,7 +72,7 @@
                         <div class="item">
                             <a target="_blank" href="https://www.php.net/" title="www.php.net" class="ct-gallery-itemHoverSquare">
                                 <figure class="ct-gallery-item">
-                                    <img src="{{ asset('resources/techno_slide/logo_php.png') }}" alt="PHP">
+                                    <img src="{{ asset('resources/techno_slide/logo-php.png') }}" alt="PHP">
                                     <figcaption class="ct-u-colorWhite text-uppercase">
                                         <div class="ct-u-displayTableVertical">
                                             <div class="ct-u-displayTableCell text-left">
@@ -85,7 +87,7 @@
                         <div class="item">
                             <a target="_blank" href="https://symfony.com/" title="symfony.com" class="ct-gallery-itemHoverSquare">
                                 <figure class="ct-gallery-item">
-                                    <img src="{{ asset('resources/techno_slide/symfony_black_03.png') }}" alt="Symfony2">
+                                    <img src="{{ asset('resources/techno_slide/symfony.png') }}" alt="Symfony2">
                                     <figcaption class="ct-u-colorWhite text-uppercase">
                                         <div class="ct-u-displayTableVertical">
                                             <div class="ct-u-displayTableCell text-left">
@@ -130,7 +132,7 @@
                         <div class="item">
                             <a target="_blank" href="http://www.postgresql.org/" title="www.postgresql.org" class="ct-gallery-itemHoverSquare">
                                 <figure class="ct-gallery-item">
-                                    <img src="{{ asset('resources/techno_slide/postgresql_logo.png') }}" alt="PostgreSQL">
+                                    <img src="{{ asset('resources/techno_slide/postgresql-logo.png') }}" alt="PostgreSQL">
                                     <figcaption class="ct-u-colorWhite text-uppercase">
                                         <div class="ct-u-displayTableVertical">
                                             <div class="ct-u-displayTableCell text-left">
@@ -234,7 +236,7 @@
                     <article class="ct-article ct-fw-600 ct-article--bggrey section" id="articlePhp" itemtype="http://schema.org/BlogPosting" itemscope="" itemprop="blogPost">
                         <div class="ct-article-media">
                             <a itemprop="url" target="_blank" href="https://secure.php.net/" class="ct-gallery-itemShadowHoverLeft">
-                                <img itemprop="image" alt="PHP" src="{{  asset('/resources/PHP-logo.svg.png') }}">
+                                <img itemprop="image" alt="PHP" src="{{  asset('/resources/logo-php.png') }}">
                             </a>
                         </div>
                         <div class="ct-article-body">
@@ -259,7 +261,7 @@
                     <article class="ct-article ct-fw-600 ct-article--bggrey section" itemtype="http://schema.org/BlogPosting" itemscope="" itemprop="blogPost" id="articleSymfony">
                         <div class="ct-article-media">
                             <a itemprop="url" target="_blank" href="https://symfony.com/" class="ct-gallery-itemShadowHoverLeft">
-                                <img itemprop="image" alt="Symfony 2" src="{{  asset('/resources/symfony_black_02.png') }}" class="ct-u-marginBoth20">
+                                <img itemprop="image" alt="Symfony 2" src="{{  asset('/resources/logo-symfony.png') }}" class="ct-u-marginBoth20">
                             </a>
                         </div>
                         <div class="ct-article-body">
@@ -308,14 +310,14 @@
                                             entre les appels &agrave; la base de donn&eacute;es et le code de l'application.
                                         </p>
                                     </div>
-                                    <div class="col-md-4"><img alt="PHP PDO" src="{{  asset('/resources/PHP-PDO-Pilotes.png') }}"></div>
+                                    <div class="col-md-4"><img alt="PHP PDO" src="{{  asset('/resources/PHP-PDO.png') }}"></div>
                                 </div>
 
                                 <br>
                                 <h3>- Moteur de template Twig :</h3>
                                 <br>
                                 <div class="row">
-                                    <div class="col-md-3"><img alt="Template Twig" src="{{  asset('/resources/twig-php-template-framework.png') }}"></div>
+                                    <div class="col-md-3"><img alt="Template Twig" src="{{  asset('/resources/logo-twig.png') }}"></div>
                                     <div class="col-md-9">
                                         <p class="text-justify">
                                             Symfony int&egrave;gre un moteur de template qui permet de simplifier grandement
@@ -340,7 +342,7 @@
                                             et l'&eacute;volution de l'application.
                                         </p>
                                     </div>
-                                    <div class="col-md-4"><img alt="Architecture MVC" src="{{  asset('/resources/architecture_mvc.png') }}"></div>
+                                    <div class="col-md-4"><img alt="Architecture MVC" src="{{  asset('/resources/architecture-mvc.png') }}"></div>
                                 </div>
                                 <br>
                                 <div class=" text-center">
@@ -414,7 +416,7 @@
                     <article class="ct-article ct-fw-600 ct-article--bggrey section" id="articleJQuery" itemtype="http://schema.org/BlogPosting" itemscope="" itemprop="blogPost">
                         <div class="ct-article-media">
                             <a itemprop="url" target="_blank" href="https://jquery.com/"  class="ct-gallery-itemShadowHoverLeft">
-                                <img itemprop="image" alt="JQuery" src="{{  asset('/resources/JQuery_logo.svg.png') }}" class="">
+                                <img itemprop="image" alt="JQuery" src="{{  asset('/resources/JQuery-logo.png') }}" class="">
                             </a>
                         </div>
                         <div class="ct-article-body">
@@ -442,7 +444,7 @@
                     <article class="ct-article ct-fw-600 ct-article--bggrey section" id="articleAngularJs" itemtype="http://schema.org/BlogPosting" itemscope="" itemprop="blogPost">
                         <div class="ct-article-media">
                             <a itemprop="url" target="_blank" href="https://angularjs.org/"  class="ct-gallery-itemShadowHoverLeft">
-                                <img itemprop="image" alt="AngularJs" src="{{  asset('/resources/AngularJS_logo.svg.png') }}" class="">
+                                <img itemprop="image" alt="AngularJs" src="{{  asset('/resources/AngularJS-logo.png') }}" class="">
                             </a>
                         </div>
                         <div class="ct-article-body">
