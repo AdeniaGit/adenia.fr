@@ -43,6 +43,10 @@ code { background: #F5F5F5; max-width: 100px; padding: 2px 6px; word-wrap: break
     color: black;
 }
 
+.ct-u-colorPink {
+    color: #B21D4F;
+}
+
 .bloc-paddingleft-30 {
     padding-left: 30px;
 }
@@ -53,6 +57,9 @@ code { background: #F5F5F5; max-width: 100px; padding: 2px 6px; word-wrap: break
     text-shadow: 2px 2px #000;
 }
 .ct-u-colorBlack .accueil-title {
+    text-shadow: 2px 2px #fff;
+}
+.ct-u-colorPink .accueil-title {
     text-shadow: 2px 2px #fff;
 }
 
@@ -102,17 +109,13 @@ h3 {
 }
 
 /** ----- AUTRE ----- */
-.ct-textDecoration--underlineBlack {
-    position: relative;
-}
 .ct-textDecoration--underlineBlack:after {
-    content: "";
-    height: 3px;
-    width: 100px;
-    position: absolute;
-    bottom: -30px;
-    left: 0;
+
     background-color: #000;
+}
+.ct-textDecoration--underlinePink:after {
+
+    background-color: #B21D4F;
 }
 .ct-textDecoration--underline:after {
     width: 100px;
@@ -120,7 +123,7 @@ h3 {
 }
 
 .ct-list--circleWithIcons .ct-list-iconContainer {
-    color: #b44479;
+    color: #B21D4F;
     font-size: 30px;
     top: 8px;
 }
@@ -184,14 +187,14 @@ h3 {
 }
 
 .widget-inner i {
-    color: #b44479;
+    color: #B21D4F;
     margin-right: 11px;
     font-weight: bold;
     font-size: 18px;
 }
 
 .ct-article--bggrey {
-    border-bottom: 2px solid #b44479;
+    border-bottom: 2px solid #B21D4F;
     padding-top: 30px;
     background-color: #f9f9f9;
 }
@@ -203,8 +206,8 @@ h3 {
     border-bottom: none;
 }
 
-a { color: #b44479; }
-a:hover, a:focus {  color: #9b4064; }
+a { color: #B21D4F; }
+a:hover, a:focus { color: #9b4064; }
 
 /****************************************/
 /*      GESTION SLIDER HOME PAGE        */
