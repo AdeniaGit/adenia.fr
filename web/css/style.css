@@ -209,6 +209,34 @@ h3 {
 a { color: #B21D4F; }
 a:hover, a:focus { color: #9b4064; }
 
+.ct-iconBox .ct-iconBox-icon {;
+    border: 2px solid #c8c8c8;
+    color: #a5a5a5;
+}
+.ct-iconBox .ct-iconBox-description {
+    border-bottom: none;
+}
+
+.ct-iconBox-description p {
+    text-indent: 50px;
+}
+
+.ct-iconBox-description h2 {
+    min-height: 48px;
+}
+
+.ct-iconBox {
+    padding: 0px;
+}
+.container-accueil .ct-iconBox-description ul li {
+    color: black;
+}
+
+.ct-iconBox-description ul {
+    text-align: left;
+    margin-left: 10%;
+}
+
 /****************************************/
 /*      GESTION SLIDER HOME PAGE        */
 /****************************************/
