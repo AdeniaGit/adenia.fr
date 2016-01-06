@@ -4,6 +4,9 @@
 !app/cache/.gitkeep
 !app/logs/.gitkeep
 
+# PhpStorm
+/.idea/*
+
 # Cache and logs (Symfony3)
 /var/cache/*
 /var/logs/*
@@ -90,3 +93,7 @@ $RECYCLE.BIN/
 *.lnk
 =======
 >>>>>>> 37f230d2c2b1752a2bafaf4e541c4b1d3d2ccbd7
+.idea/misc.xml
+.idea/misc.xml
+.idea/workspace.xml
+.idea/workspace.xml
