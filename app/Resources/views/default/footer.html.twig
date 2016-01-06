@@ -1,3 +1,4 @@
+{#
 <footer>
     <section class="ct-u-backgroundMotive ct-u-colorWhite redfooter">
         <div class="row ct-u-paddingTop10 ct-u-paddingBottom10">
@@ -52,62 +53,51 @@
             </div>
         </div>
     </div>
-</footer>
-{#<footer>
-    <div class="ct-prefooter footer-border">
-        <div class="container">
-            <div class="ct-prefooter-inner ct-u-relative ct-u-paddingTop20 ct-u-paddingBottom20">
-                <div class="row">
-                    <div class="widget widget-contact">
-                        <div class="widget-inner" style="text-align: center;">
-                            <ul class="list-inline list-unstyled">
-                                <li><a href="https://www.google.pl/maps/place/21+Boulevard+Paul+C%C3%A9zanne,+63400+Chamali%C3%A8res,+France/@45.7807205,3.0491909,17z/data=!4m2!3m1!1s0x47f71a25adb91f1b:0xcf9f299742b44c4c">
-                                        <i class="fa fa-map-marker"></i>
-                                        21 boulevard Paul C&eacute;zanne, 63400 CHAMALI&Egrave;RES
-                                    </a>
-                                </li>
-                                <li>
-                                    <i class="fa fa-phone"></i>
-                                    <a href="tel:0667109515">(+33)6 67 10 95 15</a>
-                                </li>
-                                <li>
-                                    <i class="fa fa-envelope"></i>
-                                    <a href="mailto:contact@adenia.fr">contact@adenia.fr</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="widget">
-                            <div class="widget-inner">
-                                <h6 class="text-uppercase ct-u-colorMotive ct-fw-600 text-center">
-                                    <a href="{{ path('contact') }}">Nous contacter</a>
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="widget">
-                            <div class="widget-inner">
-                                <h6 class="text-uppercase ct-u-colorMotive ct-fw-600 text-center">
-                                    <a href="{{ path('plan_site') }}">plan du site</a>
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="widget">
-                            <div class="widget-inner">
-                                <h6 class="text-uppercase ct-u-colorMotive ct-fw-600 text-center">
-                                    <a href="{{ path('mentions_legales') }}">mentions l&eacute;gales</a>
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+</footer>#}
+<footer>
+    <section>
+        <div class="row ct-u-paddingTop10 ct-u-paddingBottom10">
+            <div class="col-sm-12 col-md-2 col-lg-2">
+                <a href="{{ path('accueil') }}">
+                    <img src="{{ asset('resources/logo-footer.png') }}" alt="logo Adenia"
+                         style="width: 150px; filter: grayscale(100%);"/>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                Adenia, S.A.R.L sp&eacute;cialis&eacute;e dans le d&eacute;veloppement d'applications Web r&eacute;pondant
+                aux besoins des TPE et PME Auvergnates.
+                <br/>
+                <br/>
+                <ul class="list-inline ct-u-paddingBottom10">
+                    <li>
+                        <i class="fa fa-copyright"></i>Adenia - 2016
+                    </li>
+                    <li>
+                        <a href="{{ path('contact') }}">Nous contacter</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('plan_site') }}">Plan du site</a>
+                    </li>
+                    <li>
+                        <a href="{{ path('mentions_legales') }}">Mentions l&eacute;gales</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <span class="ct-list-iconContainer"><i class="fa fa-map-marker"></i></span>
+                <a href="https://www.google.fr/maps/place/34+Rue+de+Sarli%C3%A8ve,+63800+Cournon-d'Auvergne/@45.7412354,3.1588389,17z/data=!3m1!4b1!4m2!3m1!1s0x47f71d0c84d5d855:0xaaf8e4727d0ed95"
+                   target="_blank">
+                    Centre d'affaires du Z&eacute;nith,
+                    34 Rue de Sarli&egrave;ve <br/>
+                    63800 COURNON D'AUVERGNE
+                </a>
+                <br/>
+                <span class="ct-list-iconContainer"><i class="fa fa-phone"></i></span>
+                <a href="tel:0667109515">(+33)6 67 10 95 15</a>
+                <br/>
+                <span class="ct-list-iconContainer"><i class="fa fa-envelope"></i></span>
+                <a href="mailto:contact@adenia.fr">contact@adenia.fr</a>
             </div>
         </div>
-    </div>
-</footer>#}
+    </section>
+</footer>

@@ -72,19 +72,80 @@ header .ct-slick .ct-slick-content {
 }
 
 /** ----- FOOTER ----- */
-.redfooter {
+footer {
+    /*background: black;
+    background-image: url(../resources/texture.png);
+    background-repeat:repeat;*/
+    border-top: solid 2px #B21D4F;
+    background-color: #0c0c0c;
+    background-image:
+    linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000),
+    linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000),
+    linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000),
+    linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000),
+    linear-gradient(60deg, #0d0d14 25%, transparent 26.5%, transparent 75%, #0d0d14 75%, #0d0d14),
+    linear-gradient(60deg, #0d0d14 25%, transparent 26.5%, transparent 75%, #0d0d14 75%, #0d0d14);
+    background-size:80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+/*.redfooter {
     border-top: 2px solid #fff;
 }
 
 .redfooter a:hover{
     color: #fff;
 }
+
+footer .list-inline li {
+    padding-right: 40px;
+}
+
+*/
+footer {
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #5a5959;
+}
+
+footer, footer p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
 footer a:hover {
     text-decoration: underline;
 }
 
+footer ul li {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+footer .ct-list--circleWithIcons li {
+    padding-left: 35px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+footer .ct-list--circleWithIcons li i {
+    font-size: 20px;
+    color: #5a5959;
+}
+
+footer .ct-list--circleWithIcons li a {
+    padding-top: 5px;
+}
+
+footer a:hover, footer a:focus { color: #8b8a8a; }
+
 footer .list-inline li {
-    padding-right: 40px;
+    border-left: solid 1px #5a5959;
+}
+footer .list-inline li:first-child {
+    border-left: none;
+    padding-left: 0px;
 }
 
 .ct-information-contact a:hover{
