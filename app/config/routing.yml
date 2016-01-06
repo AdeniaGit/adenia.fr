@@ -61,3 +61,8 @@ plan_site:
 mentions_legales:
     path:      /mentions-legales
     defaults:  { _controller: AppBundle:Annexes:mentionslegales }
+
+nelmio_security:
+    path:     /nelmio/csp/report
+    defaults: { _controller: nelmio_security.csp_reporter_controller:indexAction }
+    methods:  [POST]

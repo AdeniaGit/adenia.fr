@@ -1840,5 +1840,56 @@
             "spam",
             "visual"
         ]
+    },
+    {
+        "name": "nelmio/security-bundle",
+        "version": "1.9.0",
+        "version_normalized": "1.9.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nelmio/NelmioSecurityBundle.git",
+            "reference": "afe4fcd3a50217ae4f0272f5485311db48535346"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nelmio/NelmioSecurityBundle/zipball/afe4fcd3a50217ae4f0272f5485311db48535346",
+            "reference": "afe4fcd3a50217ae4f0272f5485311db48535346",
+            "shasum": ""
+        },
+        "require": {
+            "symfony/framework-bundle": "~2.3|~3.0",
+            "symfony/security": "~2.3|~3.0"
+        },
+        "time": "2016-01-04 10:36:42",
+        "type": "symfony-bundle",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.9.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Nelmio\\SecurityBundle\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nelmio",
+                "homepage": "http://nelm.io"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://github.com/nelmio/NelmioSecurityBundle/contributors"
+            }
+        ],
+        "description": "Extra security-related features for Symfony: signed/encrypted cookies, HTTPS/SSL/HSTS handling, cookie session storage, ...",
+        "keywords": [
+            "security"
+        ]
     }
 ]
