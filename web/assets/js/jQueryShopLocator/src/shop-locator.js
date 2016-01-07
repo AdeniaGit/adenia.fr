@@ -73,10 +73,10 @@
             marker: {
                 latlng: [52.2296760, 21.0122290],
                 animation: false, //google.maps.Animation.DROP, google.maps.Animation.BOUNCE
-                title: "CreateIT",
-                street: "",
-                zip: "",
-                city: ""
+                title: "Adenia, Centre d'affaires du Zénith",
+                street: "34 Rue de Sarliève",
+                zip: "63800",
+                city: "COURNON D'AUVERGNE"
             },
             cluster:{
                 enable: false,
