@@ -6,14 +6,17 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Validator\Constraints\Email as EmailConstraint;
-use Gregwar\CaptchaBundle\Type\CaptchaType;
 
 class ContactController extends Controller
 {
+    private $siteKey;
+    private $secret;
+
     public function contactAction(Request $request)
     {
-
-        return $this->render('contact/contact.html.twig', array());
+        $this->siteKey = $this->getParameter('recaptcha_siteKey');
+        $this->secret  = $this->getParameter('recaptcha_secretKey');
+        return $this->render('contact/contact.html.twig', array('siteKey'=> $this->siteKey));
     }
 
     public function sendmessageAction(Request $request)
@@ -58,6 +61,19 @@ class ContactController extends Controller
             {
                 $errors["message"] = "Veuillez compl&eacute;ter le champ message.";
             }
+
+            // Vérification Captcha :
+            //------------------------
+            $this->siteKey = $this->getParameter('recaptcha_siteKey');
+            $this->secret  = $this->getParameter('recaptcha_secretKey');
+            $recaptcha = new \ReCaptcha\ReCaptcha($this->secret);
+            $resp = $recaptcha->verify($data['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
+            if (!$resp->isSuccess()) {
+                // $msg = "";
+                // foreach ($resp->getErrorCodes() as $code) $msg .= '<br>'.$code;
+                $errors['g-recaptcha-response'] = "Vous n'avez pas complété correctement le Captcha."; //.$msg;
+            }
+
             if(count($errors) > 0)
             {
                 $result['errors'] = $errors;
@@ -72,26 +88,17 @@ class ContactController extends Controller
                         . $nom . ' a &eacute;crit : <br/><br/>' . $message,
                         'text/html', 'UTF-8');
 
-                // 0 si personne n'a re�u le mail, X personnes sinon
+                // 0 si personne n'a reçu le mail, X personnes sinon
                 $result['success'] = $this->get('mailer')->send($email);
             }
         }
+        /*
         else {
                 //captcha
-        }
+        }*/
 
         return new JsonResponse($result);
     }
 
-    /*
-    public function buildForm(FormBuilder $builder, array $options)
-    {
-        parent::buildForm($builder, $options);
-        $builder->add('captcha', 'captcha', array(
-            'width' => 150,
-            'height' => 50,
-            'length' => 6,
-        ));
-    } */
 
 }

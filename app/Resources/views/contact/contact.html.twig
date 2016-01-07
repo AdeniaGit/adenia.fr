@@ -104,8 +104,12 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-12 col-md-12 col-lg-12">
-                                <button class="btn btn-primary btn-lg text-uppercase btn-envoyer" onclick="clearmessages()">Envoyer</button>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <div class="g-recaptcha" data-sitekey="{{ siteKey }}"></div>
+                                <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=fr"></script>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6">
+                                <button class="btn btn-primary btn-lg pull-right text-uppercase btn-envoyer" onclick="clearmessages()">Envoyer</button>
                             </div>
                         </div>
                     </form>
