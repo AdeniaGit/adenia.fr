@@ -82,7 +82,7 @@ class ContactController extends Controller
             {
                 $email = \Swift_Message::newInstance()
                     ->setSubject('[mail via Adenia.fr] : ' . $sujet)
-                    ->setFrom('fgrochowski@free.fr')
+                    ->setFrom('webmaster@adenia.fr')
                     ->setTo('contact@adenia.fr')
                     ->setBody('Adresse exp&eacute;diteur : ' . $mailfrom . '<br/>'
                         . $nom . ' a &eacute;crit : <br/><br/>' . $message,
