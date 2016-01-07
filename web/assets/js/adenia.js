@@ -1,5 +1,5 @@
 /**
- * Fichier Javascript personnalisé du site Adenia.fr
+ * Fichier Javascript personnalisÃ© du site Adenia.fr
  */
 
 function clearmessages()
@@ -13,9 +13,11 @@ function clearmessages()
 }
 
 $(document).ready(function() {
-    resizeThumbnail();
-    resizeProductBox();
 
+    var $timeout2 = setTimeout(function(){
+        resizeThumbnail();
+        resizeProductBox();
+    }, 500);
     if ($().pageScroller) {
         $('body').pageScroller({
             navigation: '.navbar-nav-left .onepage', sectionClass: 'section', scrollOffset: -110
@@ -60,6 +62,7 @@ function resizeProductBox()
 {
     var container = $('.row-productBox');
     // si le composant existe dans la page
+
     for (i = 0; i <= container.length; i++)
     {
         var maxheigth = 0;
