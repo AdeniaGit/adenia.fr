@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17f860b7-be30-4d08-bfbe-ff58873c9efe" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/resources/frederic.jpg" afterPath="$PROJECT_DIR$/web/resources/frederic.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/entreprise/equipe.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/entreprise/equipe.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/entreprise/lesplus.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/entreprise/lesplus.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/opensource/opensource-et-moi.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/opensource/opensource-et-moi.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/opensource/philosophie.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/opensource/philosophie.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/services/prestations.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/services/prestations.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/entreprise/valeurs.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/entreprise/valeurs.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="adenia.fr.iws" />
@@ -23,21 +31,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="footer.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/footer.html.twig">
+      <file leaf-file-name="ContactController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/ContactController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59246576">
-              <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="84" column="40" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plan-du-site.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/annexes/plan-du-site.html.twig">
+      <file leaf-file-name="adenia.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/assets/js/adenia.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923">
-              <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+              <folding>
+                <marker date="1450696790461" expanded="true" signature="0:37" placeholder="/** Fichier Javascript personnalis� du site Adenia.fr ...*/" />
+                <marker date="1450696790461" expanded="true" signature="1732:2372" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prestations.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/services/prestations.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.807693">
+              <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lesplus.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/entreprise/lesplus.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-113.11539">
+              <caret line="173" column="29" selection-start-line="173" selection-start-column="29" selection-end-line="173" selection-end-column="29" />
+              <folding>
+                <element signature="e#1635#1661#0#HTML" expanded="true" />
+                <element signature="e#1965#2005#0#HTML" expanded="true" />
+                <element signature="e#2141#2167#0#HTML" expanded="true" />
+                <element signature="e#3148#3187#0#HTML" expanded="true" />
+                <element signature="e#3500#3526#0#HTML" expanded="true" />
+                <element signature="e#5858#5884#0#HTML" expanded="true" />
+                <element signature="e#7654#7680#0#HTML" expanded="true" />
+                <element signature="e#10665#10691#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="equipe.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/entreprise/equipe.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.884615">
+              <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="philosophie.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/opensource/philosophie.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.5384617">
+              <caret line="48" column="123" selection-start-line="48" selection-start-column="123" selection-end-line="48" selection-end-column="123" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.384">
+              <caret line="107" column="47" selection-start-line="107" selection-start-column="47" selection-end-line="107" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="opensource-et-moi.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/opensource/opensource-et-moi.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.846154">
+              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="valeurs.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/entreprise/valeurs.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.309091">
+              <caret line="117" column="75" selection-start-line="117" selection-start-column="75" selection-end-line="117" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -46,38 +136,8 @@
       <file leaf-file-name="header.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/default/header.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3846154">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/contact/contact.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="50" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mentions-legales.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/annexes/mentions-legales.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.692307">
-              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -95,25 +155,27 @@
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/entreprise/historique.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/opensource/opensource-et-moi.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/headermobile.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/opensource/philosophie.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/opensource/technologies.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/realisations/references.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/services/partenariats.html.twig" />
         <option value="$PROJECT_DIR$/web/assets/css/motive/motive-parties.css" />
         <option value="$PROJECT_DIR$/web/assets/js/jQueryShopLocator/init.js" />
-        <option value="$PROJECT_DIR$/app/Resources/views/entreprise/valeurs.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/entreprise/equipe.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/contact/contact.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/services/prestations.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/entreprise/lesplus.html.twig" />
         <option value="$PROJECT_DIR$/web/css/style.css" />
         <option value="$PROJECT_DIR$/app/Resources/views/annexes/plan-du-site.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/annexes/mentions-legales.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/footer.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/header.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/ContactController.php" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/footer.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/entreprise/valeurs.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/services/prestations.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/entreprise/lesplus.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/entreprise/equipe.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/opensource/opensource-et-moi.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/opensource/philosophie.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
       </list>
     </option>
   </component>
@@ -145,7 +207,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="1" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -161,7 +223,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,7 +269,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -226,7 +291,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -468,6 +533,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -489,16 +555,8 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/AppKernel.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Resources/views/base.html.twig</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Resources/views/contact/contact.html.twig</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/config/config.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/config/parameters.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/composer.lock</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/AppBundle/Controller/ContactController.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/composer/autoload_psr4.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/composer/installed.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/assets/js/adenia.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/css/style.css</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -506,30 +564,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/.travis.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/CONTRIBUTING.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/examples/example-captcha.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/phpunit.xml.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/src/ReCaptcha/ReCaptcha.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/src/ReCaptcha/RequestMethod.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/src/ReCaptcha/RequestMethod/Curl.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/src/ReCaptcha/RequestMethod/CurlPost.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/src/ReCaptcha/RequestMethod/Post.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/src/ReCaptcha/RequestMethod/Socket.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/src/ReCaptcha/RequestMethod/SocketPost.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/src/ReCaptcha/RequestParameters.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/src/ReCaptcha/Response.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/src/autoload.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/tests/ReCaptcha/ReCaptchaTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/tests/ReCaptcha/RequestMethod/CurlPostTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/tests/ReCaptcha/RequestMethod/PostTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/tests/ReCaptcha/RequestMethod/SocketPostTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/tests/ReCaptcha/RequestParametersTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/google/recaptcha/tests/ReCaptcha/ResponseTest.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -537,75 +571,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Controller/CaptchaController.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/DependencyInjection/Configuration.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/DependencyInjection/GregwarCaptchaExtension.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Generator/CaptchaGenerator.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Generator/Font/captcha.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Generator/ImageFileHandler.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/GregwarCaptchaBundle.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/config/routing/routing.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/config/services.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/gregwar_captcha.ar.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/gregwar_captcha.bg.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/gregwar_captcha.cs.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/gregwar_captcha.de.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/gregwar_captcha.en.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/gregwar_captcha.es.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/gregwar_captcha.fr.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/gregwar_captcha.it.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/gregwar_captcha.nl.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/gregwar_captcha.pl.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/gregwar_captcha.pt_BR.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/gregwar_captcha.ro.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/gregwar_captcha.ru.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/gregwar_captcha.tr.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/gregwar_captcha.uk.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/gregwar_captcha.zh_CN.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/validators.ar.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/validators.bg.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/validators.cs.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/validators.de.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/validators.en.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/validators.es.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/validators.fr.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/validators.it.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/validators.nl.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/validators.pl.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/validators.pt_BR.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/validators.ro.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/validators.ru.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/validators.tr.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/validators.uk.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/translations/validators.zh_CN.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Resources/views/captcha.html.twig</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Type/CaptchaType.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/Validator/CaptchaValidator.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha-bundle/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/.travis.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/CaptchaBuilder.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/CaptchaBuilderInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/Font/captcha0.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/Font/captcha1.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/Font/captcha2.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/Font/captcha3.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/Font/captcha4.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/Font/captcha5.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/ImageFileHandler.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/PhraseBuilder.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/PhraseBuilderInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/autoload.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/demo/demo.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/demo/fingerprint.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/demo/index.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/demo/ocr.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/gregwar/captcha/demo/output.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -816,7 +781,19 @@
       <option name="project" value="LOCAL" />
       <updated>1452185679696</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="sécurisation de l'adresse mail (changement des &quot;mailto:&quot;)">
+      <created>1452185812172</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1452185812172</updated>
+    </task>
+    <task id="LOCAL-00017" summary="changement de l'adresse d'envoie des mails.&#10;Changement du logo en gris footer">
+      <created>1452193845687</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1452193845687</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -832,23 +809,23 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24659607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25037822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5060514" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.50907713" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.49394855" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3275862" sideWeight="0.49092284" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -878,85 +855,14 @@
     <MESSAGE value="Modifications suite à retours Fred (part3)&#10;Footer en noir." />
     <MESSAGE value="Logo du footer" />
     <MESSAGE value="sécurisation de l'adresse mail (changement des &quot;mailto:&quot;)" />
-    <option name="LAST_COMMIT_MESSAGE" value="sécurisation de l'adresse mail (changement des &quot;mailto:&quot;)" />
+    <MESSAGE value="changement de l'adresse d'envoie des mails.&#10;Changement du logo en gris footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="changement de l'adresse d'envoie des mails.&#10;Changement du logo en gris footer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/footer.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/header.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="86" selection-start-line="57" selection-start-column="86" selection-end-line="57" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/contact/contact.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="66" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/footer.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/header.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="86" selection-start-line="57" selection-start-column="86" selection-end-line="57" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/contact/contact.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="66" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/footer.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/header.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -969,7 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="107" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="107" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,7 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="119" column="14" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -992,7 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10765" column="1" selection-start-line="10762" selection-start-column="0" selection-end-line="10765" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1000,7 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="236" column="4" selection-start-line="236" selection-start-column="4" selection-end-line="236" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1088,21 +990,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8707" column="1" selection-start-line="8707" selection-start-column="1" selection-end-line="8707" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/jQueryShopLocator/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69344264">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="12.846154">
@@ -1131,13 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/opensource/philosophie.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3636363">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/realisations/references.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.6153846">
@@ -1152,52 +1032,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/services/prestations.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66780823">
-          <caret line="26" column="147" selection-start-line="26" selection-start-column="147" selection-end-line="26" selection-end-column="147" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/opensource/technologies.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/entreprise/equipe.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2791096">
-          <caret line="69" column="62" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36643836">
-          <caret line="104" column="119" selection-start-line="104" selection-start-column="110" selection-end-line="104" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/opensource/opensource-et-moi.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55308217">
-          <caret line="19" column="81" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/entreprise/valeurs.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55308217">
-          <caret line="35" column="68" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/entreprise/lesplus.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58219177">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1206,41 +1044,118 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="122" column="1" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/annexes/plan-du-site.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.076923">
           <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2639344">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.50163937">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="e#7#47#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="45" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/contact/contact.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/assets/js/jQueryShopLocator/src/shop-locator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="50" selection-end-column="41" />
-          <folding />
+        <state vertical-scroll-proportion="0.36393443">
+          <caret line="75" column="31" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/jQueryShopLocator/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21803279">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21803279">
+          <caret line="195" column="1" selection-start-line="195" selection-start-column="1" selection-end-line="195" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/annexes/mentions-legales.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.692307">
+        <state vertical-scroll-proportion="0.38698632">
           <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21803279">
+          <caret line="8707" column="1" selection-start-line="8707" selection-start-column="1" selection-end-line="8707" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/contact/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74486303">
+          <caret line="64" column="56" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/header.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3846154">
+        <state vertical-scroll-proportion="0.0">
           <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding />
         </state>
@@ -1248,16 +1163,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/ContactController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35561496">
-          <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="40" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/footer.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/assets/js/adenia.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59246576">
-          <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+          <folding>
+            <marker date="1450696790461" expanded="true" signature="0:37" placeholder="/** Fichier Javascript personnalis� du site Adenia.fr ...*/" />
+            <marker date="1450696790461" expanded="true" signature="1732:2372" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/entreprise/valeurs.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.309091">
+          <caret line="117" column="75" selection-start-line="117" selection-start-column="75" selection-end-line="117" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/services/prestations.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/entreprise/lesplus.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-113.11539">
+          <caret line="173" column="29" selection-start-line="173" selection-start-column="29" selection-end-line="173" selection-end-column="29" />
+          <folding>
+            <element signature="e#1635#1661#0#HTML" expanded="true" />
+            <element signature="e#1965#2005#0#HTML" expanded="true" />
+            <element signature="e#2141#2167#0#HTML" expanded="true" />
+            <element signature="e#3148#3187#0#HTML" expanded="true" />
+            <element signature="e#3500#3526#0#HTML" expanded="true" />
+            <element signature="e#5858#5884#0#HTML" expanded="true" />
+            <element signature="e#7654#7680#0#HTML" expanded="true" />
+            <element signature="e#10665#10691#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/opensource/opensource-et-moi.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.846154">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/entreprise/equipe.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.884615">
+          <caret line="33" column="68" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/opensource/philosophie.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="48" column="123" selection-start-line="48" selection-start-column="123" selection-end-line="48" selection-end-column="123" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.384">
+          <caret line="107" column="47" selection-start-line="107" selection-start-column="47" selection-end-line="107" selection-end-column="47" />
           <folding />
         </state>
       </provider>
