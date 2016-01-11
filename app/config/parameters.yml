@@ -10,3 +10,5 @@ parameters:
     mailer_user: null
     mailer_password: null
     secret: accc474e17cb5a9e60502acefcce939bfa95e3d0
+    recaptcha_siteKey: 6LfquhQTAAAAAGfsaYKRtoH5ALiBWN5U4CqJpcIP
+    recaptcha_secretKey: 6LfquhQTAAAAAC6e5In6Fn5GlEFb3BNfn9sJFv8h
