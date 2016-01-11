@@ -315,3 +315,20 @@ a:hover, a:focus { color: #9b4064; }
 
 .first-field { padding-left: 5px; padding-right: 15px; }
 .left-padding {padding-left: 15px; }
+
+/****************************************/
+/*      GESTION COOKIE BAR              */
+/****************************************/
+#cookie-law-more { margin-left: 20px;}
+#cookie-law-close-button { float: right}
+#cookie-law-info-bar {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+  z-index:999;
+    width:100%;  position: fixed; bottom: 0;
+    left: 0;
+
+/*
+    background: black !important;
+    top: 0px !important;
+    bottom: auto !important; */
+}

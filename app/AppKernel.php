@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new AppBundle\AppBundle(),
             new Nelmio\SecurityBundle\NelmioSecurityBundle(),
+            new Xsolve\CookieAcknowledgementBundle\XsolveCookieAcknowledgementBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
