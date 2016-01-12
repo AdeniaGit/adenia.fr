@@ -2,11 +2,16 @@
 
 {% block xsolve_cookie_message %}
     <div id="cookie-law-info-bar" style="">
-        <p style="text-align:center; padding: 10px; color:#fff;">
-            En poursuivant votre navigation sur le site Adenia, vous acceptez l'utilisation de cookies. Ces derniers assurent le bon fonctionnement de nos services
-            <a id="cookie-law-more" href="{{ path('mentions_legales') }}#cookies">En savoir plus</a>
-            <a href="#" id="cookie-law-close-button"><i class="fa fa-close"></i></a>
-        </p>
+        <div class="col-sm-1 col-md-1 col-lg-1">
+            <img src="{{ asset('resources/cookies.png') }}" alt="Cookies"/>
+        </div>
+        <div class="col-sm-11 col-md-11 col-lg-11">
+            <p style="text-align:center; padding: 10px; color:#fff;">
+                En poursuivant votre navigation sur le site Adenia.fr, vous acceptez l'utilisation de cookies. Ces derniers assurent le bon fonctionnement de nos services.
+                <a id="cookie-law-more" href="{{ path('mentions_legales') }}#cookies">En savoir plus</a>
+                <a href="#" id="cookie-law-close-button"><i class="fa fa-close"></i></a>
+            </p>
+        </div>
     </div>
 {% endblock %}
 
