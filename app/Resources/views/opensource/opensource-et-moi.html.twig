@@ -4,24 +4,108 @@
 {% block keywords %}{% endblock %}
 
 {% block body %}
-    <div id="wrapper">
-        <div id="container">
-            <div id="welcome">
-                <h1><span>L'Open Source et moi</span></h1>
-            </div>
-            <div>
-                <h2>Qu'est-ce que l'Open Source ?</h2>
-                bla bla bla
-                <br/>
-                <a href="{{ path('opensource_philosophie') }}">Plus d'informations sur l'Open Source.</a>
-                <br/>
-                <h2>En quoi l'Open Source peut-il m'apporter quelque chose ?</h2>
-                <br/>
-                <h2>Qu'est-ce que l'Open Source va changer dans la vie de mon projet ?</h2>
-                <br/>
-                Pour en savoir plus sur l'Open Source et son application dans votre projet n'h&eacute;sitez pas &agrave;
-                <a href="{{ path('contact') }}">nous contacter</a>.
+    <section class="ct-u-paddingTop80 ct-u-paddingBottom20">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="ct-heading--withBorder ct-heading--withBorderGrey ct-u-marginBottom40">
+                        <h1 class="ct-u-colorMotive text-uppercase ct-u-marginBottom10">
+                            L'Open Source et moi
+                        </h1>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10 col-md-10 col-lg-10">
+                    <div class="ct-squareThumbnail">
+                        <div class="ct-squareThumbnail-body">
+                            <div class="ct-squareThumbnail-title">
+                                <h2>Foire Aux Questions</h2><i class="fa fa-question"></i>
+                            </div>
+                            <div class="ct-squareThumbnail-content">
+                                <div id="accordion2" role="tablist" aria-multiselectable="true" class="panel-group ct-accordion--dark">
+                                    <div class="panel panel-default">
+                                        <div id="headingOne1" role="tab" class="panel-heading">
+                                            <h4>
+                                                <a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                                                    Q1. Qu'est-ce que l'Open Source ?
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne1" role="tabpanel" aria-labelledby="headingOne1" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <p>
+                                                    R&eacute;ponse !
+                                                    <br/>
+                                                    Plus d'informations sur <a style="text-decoration: underline; display: inline;" href="{{ path('opensource_philosophie') }}">la philosophie de l'Open Source.</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div id="headingOne2" role="tab" class="panel-heading">
+                                            <h4>
+                                                <a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+                                                    Q2. En quoi l'Open Source va-t-il m'apporter quelque chose ?
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne2" role="tabpanel" aria-labelledby="headingOne2" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <p>
+                                                    R&eacute;ponse !
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div id="headingOne3" role="tab" class="panel-heading">
+                                            <h4>
+                                                <a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3">
+                                                    Q3. Qu'est-ce que l'Open Source va changer dans la vie de mon projet ?
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne3" role="tabpanel" aria-labelledby="headingOne3" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <p>
+                                                    R&eacute;ponse sur la création, le court terme et le long terme.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div id="headingOne4" role="tab" class="panel-heading">
+                                            <h4>
+                                                <a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne4" aria-expanded="true" aria-controls="collapseOne4">
+                                                    Q4. Question ?
+                                                </a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne4" role="tabpanel" aria-labelledby="headingOne4" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <p>
+                                                    R&eacute;ponse !
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ct-u-paddingTop20 ct-u-paddingBottom20">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="ct-heading--withBorder ct-heading--withBorderGrey ct-u-marginBottom30">
+                        Pour en savoir plus sur l'Open Source et son application dans votre projet n'h&eacute;sitez pas &agrave;
+                        <a href="{{ path('contact') }}">nous contacter</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 {% endblock %}

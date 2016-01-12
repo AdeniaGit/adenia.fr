@@ -298,6 +298,10 @@ a:hover, a:focus { color: #9b4064; }
     margin-left: 10%;
 }
 
+.ct-accordion--dark .panel-default > .panel-heading a {
+    font-weight: 500;
+}
+
 /****************************************/
 /*      GESTION SLIDER HOME PAGE        */
 /****************************************/
