@@ -85,3 +85,17 @@ function resizeProductBox()
     }
 
 }
+
+function runWinSoftwareGame()
+{
+    var popup = $('#popupWinSoftwareGameDiv');
+    popup.css('display','block');
+    popup.show();
+}
+
+function closeWinSoftwareGame()
+{
+    var popup = $('#popupWinSoftwareGameDiv');
+    popup.css('display','none');
+    popup.hide();
+}
