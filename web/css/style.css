@@ -283,10 +283,10 @@ a:hover, a:focus { color: #9b4064; }
     z-index: 999;
     width: 400px;
     text-align: left;
-    top: 50%;
-    margin-top: -60px;
+    /*top: 50%;
+    margin-top: -60px;              // fait dans le Open du JS
     left:50%;
-    margin-left: -200px;
+    margin-left: -200px;*/
     color: #4c4c4c;
     font-size: 14px;
     display: none;
@@ -315,11 +315,15 @@ a:hover, a:focus { color: #9b4064; }
     width: 25px;
 }
 
+#popupWinSoftwareGameDiv .header-popup .close-buton:hover {
+    background: #ce673c;
+    box-shadow: 1px 1px 5px 0px #9e3c2a inset;
+}
+
 #popupWinSoftwareGameDiv .body-popup {
     padding: 20px 0px;
     margin: 5px;
     background: #E5E4D2;
-    height: 120px;
     border: solid 1px #19429E;
     box-shadow: 3px 3px 0px #19429E;
 }
@@ -337,9 +341,10 @@ a:hover, a:focus { color: #9b4064; }
 }
 
 #popupWinSoftwareGameDiv .body-popup .ok-buton {
-    position: fixed;
-    left: 50%;
-    margin-left: -40px;
+    /*position: fixed;
+    left: 50%;                    // le bouton ne dépend plu de la popup...
+    margin-left: -40px;*/
+    margin-left: 155px;
     background-color: #F0F7EF;
     border: 1px solid #15326E;
     width: 80px;

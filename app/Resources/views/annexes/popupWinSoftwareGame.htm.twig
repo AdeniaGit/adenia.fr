@@ -3,10 +3,10 @@
         Erreur syst&egrave;me
         <a href="javascript:closeWinSoftwareGame()"><i class="fa fa-times pull-right close-buton"></i></a>
     </div>
-    <div class="body-popup">
-        <img src="{{ asset('resources/attention.png') }}" alt="Logo attention" height="34px"/>
-        <span id="popupWinSoftwareGameDiv-errortext">La mise &agrave; jour a &eacute;chou&eacute;e.</span>
-        <!-- Une erreur est survenue durant l'installation-->
+    <div class="body-popup" onmousemove="attemptCloseWinSoftwareGame()">
+        <img id="popupWinSoftwareGameImg" src="{{ asset('resources/attention.png') }}" alt="Logo d'erreur" height="32px"/>
+        <span id="popupWinSoftwareGameErrortext">La mise &agrave; jour a &eacute;chou&eacute;e.</span>
+        <!-- Une erreur est survenue durant l'installation -->
         <br/>
         <br/>
         <a href="javascript:closeWinSoftwareGame()">
@@ -17,3 +17,4 @@
 
     </div>
 </div>
+

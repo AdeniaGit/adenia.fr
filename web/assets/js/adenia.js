@@ -2,16 +2,6 @@
  * Fichier Javascript personnalisé du site Adenia.fr
  */
 
-function clearmessages()
-{
-    var $successMessageField = $('.successMessage');
-    if($successMessageField)
-        $successMessageField.fadeOut();
-    var $errorMessageField = $('.errorMessage');
-    if($errorMessageField)
-        $errorMessageField.fadeOut();
-}
-
 $(document).ready(function() {
 
     var $timeout2 = setTimeout(function(){
@@ -29,6 +19,22 @@ $(window).resize(function() {
     resizeProductBox();
 });
 
+/** ------------------------------------------------------------------------------------- */
+/** ------- GESTION DE LA SUPPRESSION DES MESSAGES D'ERREUR DU FORMULAIRE CONTACT ------- */
+/** ------------------------------------------------------------------------------------- */
+function clearmessages()
+{
+    var $successMessageField = $('.successMessage');
+    if($successMessageField)
+        $successMessageField.fadeOut();
+    var $errorMessageField = $('.errorMessage');
+    if($errorMessageField)
+        $errorMessageField.fadeOut();
+}
+
+/** ------------------------------------------------------------------------------------- */
+/** ----------------- GESTION DE LA TAILLE DES ELEMENTS D'UNE MEME PAGE ----------------- */
+/** ------------------------------------------------------------------------------------- */
 function resizeThumbnail()
 {
     var container = $('#container-thumbnail');
@@ -84,18 +90,4 @@ function resizeProductBox()
         );
     }
 
-}
-
-function runWinSoftwareGame()
-{
-    var popup = $('#popupWinSoftwareGameDiv');
-    popup.css('display','block');
-    popup.show();
-}
-
-function closeWinSoftwareGame()
-{
-    var popup = $('#popupWinSoftwareGameDiv');
-    popup.css('display','none');
-    popup.hide();
 }

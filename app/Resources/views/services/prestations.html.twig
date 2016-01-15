@@ -134,7 +134,8 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                    <a href="javascript:runWinSoftwareGame()" class="btn btn-primary text-accentuate">
+                    <a id="runWinSoftwareGameBtn" class="btn btn-primary text-accentuate"
+                       href="javascript:runWinSoftwareGame('runWinSoftwareGameBtn')">
                         Tester les solutions win
                     </a>
                 </div>
@@ -264,4 +265,24 @@
         </div>
     </section>
     {{ include('annexes/popupWinSoftwareGame.htm.twig') }}
+    {% block javascripts %}
+        <script type="text/javascript">
+            var errorTable = [
+                    {"image": "{{ asset('resources/attention.png') }}",
+                        "erreur": "La mise à jour a échouée."},
+                    {"image": "{{ asset('resources/erreur.png') }}",
+                        "erreur": "Erreur fatale. L'application va être fermée"},
+                    {"image": "{{ asset('resources/erreur.png') }}",
+                        "erreur": "Une erreur inconnue est survenue lors de l'installation. " +
+                        "L'application n'a pas pu être installée."},
+                    {"image": "{{ asset('resources/erreur.png') }}",
+                        "erreur": "L'instruction à l'adresse mémoire \"0x036d2131\" ne peut pas être lue. " +
+                        "<br/><br/>Cliquez sur OK pour terminer le programme." +
+                        "<br/>Cliquez sur Annuler pour déboguer le programme."},
+                    {"image": "{{ asset('resources/erreur.png') }}",
+                        "erreur": "Erreur fatale. L'application va être fermée"}
+            ];
+        </script>
+        <script src="{{ asset('assets/js/popupWinSoftwareGame.js') }}" type="text/javascript"></script>
+    {% endblock %}
 {% endblock %}
