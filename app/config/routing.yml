@@ -5,10 +5,10 @@ app:
 accueil:
     path:      /
     defaults:  { _controller: AppBundle:Default:index }
-
-entreprise_historique:
-    path:      /entreprise/historique
-    defaults:  { _controller: AppBundle:Entreprise:historique }
+#
+#entreprise_historique:
+#    path:      /entreprise/historique
+#    defaults:  { _controller: AppBundle:Entreprise:historique }
 
 entreprise_valeurs:
     path:      /entreprise/valeurs
@@ -29,6 +29,10 @@ services_prestations:
 #services_partenariats:
 #    path:      /services/partenariats
 #    defaults:  { _controller: AppBundle:Services:partenariats }
+
+services_faq:
+    path:       /services/faq
+    defaults:   { _controller: AppBundle:Services:faq}
 
 realisations_references:
     path:      /realisations/references
