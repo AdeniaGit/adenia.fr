@@ -12,6 +12,10 @@
     font-size: 120%;
 }
 
+.text-little-accentuate {
+    font-weight: bold;
+}
+
 .ct-u-colorBlack {
     color: black;
 }
