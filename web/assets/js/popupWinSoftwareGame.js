@@ -28,9 +28,8 @@ function runWinSoftwareGame(buttonPressed)
 
 function closeWinSoftwareGame()
 {
-    // On cache la popup et on remet le texte du bouton à son origine
+    // On cache la popup
     var popup = $('#popupWinSoftwareGameDiv');
-    $('#'+buttonLaunchingPopup).text('Tester les solutions win');
     popup.css({display: 'none'});
     popup.hide();
 }
@@ -64,4 +63,14 @@ function attemptCloseWinSoftwareGame()
             inpopup = false;
         }, 400);
     }
+}
+
+// fonction qui ferme la popup de fin du jeu
+function closeWinSoftwareGameEnd()
+{
+    // on remet le texte du bouton à son origine
+    var popup = $('#popupWinSoftwareGameEndDiv');
+    $('#'+buttonLaunchingPopup).text('Comparer les solutions client lourd et web');
+    popup.css({display: 'none'});
+    popup.hide();
 }

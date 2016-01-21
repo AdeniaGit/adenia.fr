@@ -1,0 +1,48 @@
+<div id="popupWinSoftwareGameDiv">
+    <div class="header-popup text-accentuate">
+        Erreur syst&egrave;me
+        <a href="javascript:closeWinSoftwareGame()"><i class="fa fa-times pull-right close-buton"></i></a>
+    </div>
+    <div class="body-popup" onmousemove="attemptCloseWinSoftwareGame()">
+        <img id="popupWinSoftwareGameImg" src="{{ asset('resources/attention.png') }}" alt="Logo d'erreur" height="32px"/>
+        <span id="popupWinSoftwareGameErrortext">La mise &agrave; jour a &eacute;chou&eacute;e.</span>
+        <br/>
+        <br/>
+        <a href="javascript:closeWinSoftwareGame()" class="ok-bouton">OK</a>
+    </div>
+    <div class="footer-popup">
+
+    </div>
+</div>
+
+<div id="popupWinSoftwareGameEndDiv">
+    <div class="header-popup text-accentuate">
+        <p class="title">Solutions Web</p>
+        <img src="{{ asset('resources/navigateurs/logo-google-chrome.png') }}" alt="Logo Google Chrome" height="25px"/>
+        <img src="{{ asset('resources/navigateurs/logo-firefox.png') }}" alt="Logo Firefox" height="25px"/>
+        <img src="{{ asset('resources/navigateurs/logo-ie.png') }}" alt="Logo Internet Explorer" height="25px"/>
+        <img src="{{ asset('resources/navigateurs/logo-safari.png') }}" alt="Logo Safari" height="25px"/>
+        <img src="{{ asset('resources/navigateurs/logo-opera.png') }}" alt="Logo Opera" height="25px"/>
+        <a href="javascript:closeWinSoftwareGameEnd()"><span class="pull-right close-buton">X</span></a>
+    </div>
+    <div class="body-popup">
+        <p class="bandeau-url">
+            1. Saisissez votre url : <span class="url">www.monentreprise.fr/monlogiciel.fr</span>
+        </p>
+        <br/>
+        <p>
+            2. (option) Connectez vous &agrave; votre application s&eacute;curis&eacute;e
+        <br/>
+            <span class="connexion">Identifiant</span><span class="connexion">Mot de passe</span>
+        </p>
+        <br/>
+        <p>
+            3. Utilisez vos fonctionnalit&eacute;s
+        </p>
+        <a href="javascript:closeWinSoftwareGameEnd()" class="ok-bouton">Simplifiez-votre travail</a>
+    </div>
+    <div class="footer-popup">
+
+    </div>
+</div>
+
