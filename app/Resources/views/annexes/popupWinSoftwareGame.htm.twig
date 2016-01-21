@@ -1,0 +1,20 @@
+<div id="popupWinSoftwareGameDiv">
+    <div class="header-popup text-accentuate">
+        Erreur syst&egrave;me
+        <a href="javascript:closeWinSoftwareGame()"><i class="fa fa-times pull-right close-buton"></i></a>
+    </div>
+    <div class="body-popup" onmousemove="attemptCloseWinSoftwareGame()">
+        <img id="popupWinSoftwareGameImg" src="{{ asset('resources/attention.png') }}" alt="Logo d'erreur" height="32px"/>
+        <span id="popupWinSoftwareGameErrortext">La mise &agrave; jour a &eacute;chou&eacute;e.</span>
+        <!-- Une erreur est survenue durant l'installation -->
+        <br/>
+        <br/>
+        <a href="javascript:closeWinSoftwareGame()">
+            <div class="ok-buton">OK</div>
+        </a>
+    </div>
+    <div class="footer-popup">
+
+    </div>
+</div>
+
