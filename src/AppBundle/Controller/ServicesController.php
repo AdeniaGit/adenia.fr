@@ -16,4 +16,9 @@ class ServicesController extends Controller
     {
         return $this->render('services/partenariats.html.twig', array());
     }
+
+    public function faqAction(Request $request)
+    {
+        return $this->render('services/faq.html.twig', array());
+    }
 }

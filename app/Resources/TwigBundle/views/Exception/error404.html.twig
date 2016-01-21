@@ -1,16 +1,38 @@
 {% extends 'base.html.twig' %}
-
+{% block title %} - Erreur 404{% endblock %}
+{% block description %}Erreur 404 www.adenia.fr{% endblock %}
+{% block keywords %}erreur 404 SARL Adenia{% endblock %}
 
 {% block body %}
-    <div id="wrapper">
-        <div id="container">
-            <div id="welcome">
-                L'URL demand&eacute;e est inaccessible.
-                <br/>
-                <br/>
-                Vous pouvez retourner &agrave; l'<a href="{{ path('accueil') }}">accueil du site</a> ou saisir &agrave;
-                nouveau l'URL.
+    <section class="ct-u-paddingTop80 ct-u-paddingBottom60">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="ct-heading--withBorder ct-heading--withBorderGrey ct-u-marginBottom40">
+                        <h1 class="ct-u-colorMotive text-uppercase ct-u-marginBottom10">
+                            Erreur 404 : page not found
+                        </h1>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="ct-u-decoration--triangleBefore ct-u-backgroundMotive">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="ct-u-marginBottom80">
+                        <p>
+                            L'URL demand&eacute;e est inaccessible.
+                            <br/>
+                            <br/>
+                            Vous pouvez retourner &agrave; l'<a href="{{ path('accueil') }}">accueil du site</a> ou saisir &agrave;
+                            nouveau l'URL.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 {% endblock %}

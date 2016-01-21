@@ -132,12 +132,20 @@
                     </div>
                 </div>
             </div>
+            <div class="row ct-u-paddingBoth40">
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                    <a id="runWinSoftwareGameBtn" class="btn btn-primary text-accentuate"
+                       href="javascript:runWinSoftwareGame('runWinSoftwareGameBtn')">
+                        Comparer les solutions client lourd et web
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
     <div id="prestations" style="top: -90px; position: relative;"></div>
     <section>
         <div class="container">
-            <div class="row ct-u-paddingTop60 ct-u-paddingBottom10">
+            <div class="row ct-u-paddingTop50 ct-u-paddingBottom10">
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="ct-heading--striped ct-u-top-50">
                         <h2 class="pull-left" style="line-height: 26px;">
@@ -236,6 +244,15 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="ct-heading--withBorder ct-heading--withBorderGrey ct-u-marginBottom30">
+                        Nous r&eacute;alisons pour vous des applications web sur demande correspondant &agrave; vos besoins.
+                        Cela peut aller du simple site vitrine ou e-commerce &agrave; une application avec une forte complexit&eacute;
+                        m&eacute;tier (traiement et mise en forme graphique ou pdf de vos donn&eacute;es m&eacute;tier).
+                        Nous intervenons dans
+                        tous les secteurs (m&eacute;dical, transport, commerce, tourisme, etc.). &Agrave; titre personnel,
+                        nous avons d&eacute;j&agrave; r&eacute;alis&eacute; des applications dans chacun de ces domaines.
+                        <br/>
+                        <br/>
+                        <br/>
                         &Agrave; chaque &eacute;tape de la vie de votre projet vous &ecirc;tes impliqu&eacute; pour obtenir un
                         produit qui vous correspond et ainsi maximiser les b&eacute;n&eacute;fices que vous en retirerez.
                         <br/>
@@ -247,4 +264,25 @@
             </div>
         </div>
     </section>
+    {{ include('annexes/popupWinSoftwareGame.html.twig') }}
+    {% block javascripts %}
+        <script type="text/javascript">
+            var errorTable = [
+                    {"image": "{{ asset('resources/attention.png') }}",
+                        "erreur": "La mise à jour a échouée."},
+                    {"image": "{{ asset('resources/erreur.png') }}",
+                        "erreur": "Erreur fatale. L'application va être fermée"},
+                    {"image": "{{ asset('resources/erreur.png') }}",
+                        "erreur": "Une erreur inconnue est survenue lors de l'installation. " +
+                        "L'application n'a pas pu être installée."},
+                    {"image": "{{ asset('resources/erreur.png') }}",
+                        "erreur": "L'instruction à l'adresse mémoire \"0x036d2131\" ne peut pas être lue. " +
+                        "<br/><br/>Cliquez sur OK pour terminer le programme." +
+                        "<br/>Cliquez sur Annuler pour déboguer le programme."},
+                    {"image": "{{ asset('resources/attention.png') }}",
+                        "erreur": "L'application nécessite une architecture 64 bits, elle n'a pas pu être installée."}
+            ];
+        </script>
+        <script src="{{ asset('assets/js/popupWinSoftwareGame.js') }}" type="text/javascript"></script>
+    {% endblock %}
 {% endblock %}
