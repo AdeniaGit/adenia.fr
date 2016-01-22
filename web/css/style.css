@@ -326,10 +326,8 @@ a:hover, a:focus { color: #9b4064; }
 }
 
 #popupWinSoftwareGameDiv .body-popup .ok-bouton {
-    /*position: fixed;
-    left: 50%;                    // le bouton ne dépend plu de la popup...
-    margin-left: -40px;*/
-    margin-left: 155px;
+    margin-left: 40%;
+    display: inline-block;
     background-color: #F0F7EF;
     border: 1px solid #15326E;
     width: 80px;
@@ -371,7 +369,7 @@ a:hover, a:focus { color: #9b4064; }
     margin-top: -150px;
     left:50%;
     margin-left: -225px;
-    display: block;
+    display: none;
     font-size: 14px;
     background: #A8ACF1;
 }
@@ -419,24 +417,24 @@ a:hover, a:focus { color: #9b4064; }
 #popupWinSoftwareGameEndDiv .body-popup .connexion {
     border: solid 1px #4D90FE;
     width: 150px;
-    margin: 0px 10px;
+    margin: 0px 20px;
     display: inline-block;
 }
 
 #popupWinSoftwareGameEndDiv .body-popup .ok-bouton {
     display: inline-block;
-    margin: 20px 0px 20px 155px;
+    margin: 40px 0px 20px 90px;
     color: #6e6e6e;
-    background-color: #F3F3F3;
-    border: 1px solid #F2F2F2;
+    background-color: #e6e6e6;
+    border: 1px solid #e5e5e5;
     padding: 5px;
     border-radius: 2px;
-    box-shadow: 1px 1px 10px 0px #F5F5F5 inset;
+    box-shadow: 1px 1px 10px 0px #e8e8e8 inset;
 }
 #popupWinSoftwareGameEndDiv .body-popup .ok-bouton:hover {
     color: black;
-    background-color: #F4F4F4;
-    border:1px solid #C6C6C6;
+    background-color: #e7e7e7;
+    border:1px solid #b9b9b9;
 }
 
 /****************************************/

@@ -2,6 +2,7 @@
 /** -------------------- GESTION DE LA POPUP DE JEU DES ERREURS D'OS -------------------- */
 /** ------------------------------------------------------------------------------------- */
 var popupVisible = false;
+var popupEndVisible = false;
 var buttonLaunchingPopup = "";
 var errorTableIndice = 0;
 var errorTableLength = errorTable.length;
@@ -10,7 +11,7 @@ function runWinSoftwareGame(buttonPressed)
     // On conserve l'id du bouton qui a lancé la popup
     buttonLaunchingPopup = buttonPressed;
     // Si la popup n'est pas visible on la lance et on change le texte du bouton pour stoper le jeu
-    if(popupVisible == false)
+    if(popupVisible == false && popupEndVisible == false)
     {
         var popup = $('#popupWinSoftwareGameDiv');
         $('#'+buttonLaunchingPopup).text('Arrêter le jeu');
@@ -19,11 +20,14 @@ function runWinSoftwareGame(buttonPressed)
         popupVisible = true;
     }
     // Sinon (si la popup est visible) on arrête le jeu
-    else
-    {
-        closeWinSoftwareGame();
-        popupVisible = false;
-    }
+    else if (popupEndVisible == false)
+        {
+            closeWinSoftwareGame();
+        }
+        else
+        {
+            closeWinSoftwareGameEnd();
+        }
 }
 
 function closeWinSoftwareGame()
@@ -32,6 +36,11 @@ function closeWinSoftwareGame()
     var popup = $('#popupWinSoftwareGameDiv');
     popup.css({display: 'none'});
     popup.hide();
+    popupVisible = false;
+    var popupEnd = $('#popupWinSoftwareGameEndDiv');
+    popupEnd.css({display: 'block'});
+    popupEnd.show();
+    popupEndVisible = true;
 }
 
 var inpopup = false;
@@ -73,4 +82,5 @@ function closeWinSoftwareGameEnd()
     $('#'+buttonLaunchingPopup).text('Comparer les solutions client lourd et web');
     popup.css({display: 'none'});
     popup.hide();
+    popupEndVisible = false;
 }

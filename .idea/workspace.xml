@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17f860b7-be30-4d08-bfbe-ff58873c9efe" name="Default" comment="Remplissage de la FAQ">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/annexes/popupWinSoftwareGame.html.twig" />
-      <change type="DELETED" beforePath="Y:\adenia.fr\app\Resources\views\annexes\popupWinSoftwareGame.htm.twig" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/resources/frederic.jpg" afterPath="$PROJECT_DIR$/web/resources/frederic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/services/faq.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/services/faq.html.twig" />
+    <list default="true" id="17f860b7-be30-4d08-bfbe-ff58873c9efe" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app_dev.php" afterPath="$PROJECT_DIR$/web/app_dev.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/annexes/popupWinSoftwareGame.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/annexes/popupWinSoftwareGame.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/assets/js/popupWinSoftwareGame.js" afterPath="$PROJECT_DIR$/web/assets/js/popupWinSoftwareGame.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/services/prestations.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/services/prestations.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/style.css" afterPath="$PROJECT_DIR$/web/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -33,22 +30,21 @@
       <file leaf-file-name="prestations.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/services/prestations.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7454545">
+            <state vertical-scroll-proportion="0.0">
               <caret line="136" column="88" selection-start-line="136" selection-start-column="57" selection-end-line="136" selection-end-column="88" />
-              <folding>
-                <element signature="e#9940#9979#0#HTML" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popupWinSoftwareGame.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="popupWinSoftwareGame.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/assets/js/popupWinSoftwareGame.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.89180326">
+              <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="n#!!block;n#attemptCloseWinSoftwareGame#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -57,35 +53,47 @@
       <file leaf-file-name="popupWinSoftwareGame.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/annexes/popupWinSoftwareGame.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.307693">
-              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+            <state vertical-scroll-proportion="-14.615385">
+              <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58196723">
-              <caret line="425" column="0" selection-start-line="425" selection-start-column="0" selection-end-line="425" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="419" column="17" selection-start-line="419" selection-start-column="17" selection-end-line="419" selection-end-column="17" />
               <folding>
                 <element signature="e#5357#5751#0" expanded="false" />
                 <element signature="e#5792#5927#0" expanded="false" />
                 <element signature="e#5966#6102#0" expanded="false" />
                 <element signature="e#6145#6185#0" expanded="false" />
                 <element signature="e#6226#6271#0" expanded="false" />
-                <element signature="e#7482#7563#0" expanded="false" />
-                <element signature="e#7611#7636#0" expanded="false" />
-                <element signature="e#7693#7847#0" expanded="false" />
-                <element signature="e#7910#7938#0" expanded="false" />
-                <element signature="e#7980#8056#0" expanded="false" />
-                <element signature="e#8111#8177#0" expanded="false" />
-                <element signature="e#8237#8296#0" expanded="false" />
-                <element signature="e#8349#8450#0" expanded="false" />
-                <element signature="e#8503#8738#0" expanded="false" />
-                <element signature="e#8796#8878#0" expanded="false" />
+                <element signature="e#6321#6542#0" expanded="false" />
+                <element signature="e#6597#6661#0" expanded="false" />
+                <element signature="e#6715#6938#0" expanded="false" />
+                <element signature="e#7106#7330#0" expanded="false" />
+                <element signature="e#7381#7462#0" expanded="false" />
+                <element signature="e#7510#7535#0" expanded="false" />
+                <element signature="e#7592#7746#0" expanded="false" />
+                <element signature="e#7809#7837#0" expanded="false" />
+                <element signature="e#7879#7955#0" expanded="false" />
+                <element signature="e#8010#8076#0" expanded="false" />
+                <element signature="e#8136#8195#0" expanded="false" />
+                <element signature="e#8402#8636#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_dev.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/app_dev.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.384615">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,7 +134,6 @@
         <option value="$PROJECT_DIR$/app/Resources/views/annexes/mentions-legales.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/custom_cookie_bar.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/opensource/opensource-et-moi.html.twig" />
-        <option value="$PROJECT_DIR$/web/app_dev.php" />
         <option value="$PROJECT_DIR$/web/assets/js/adenia.js" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/ServicesController.php" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
@@ -138,9 +145,10 @@
         <option value="$PROJECT_DIR$/app/Resources/views/services/faq.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/annexes/popupWinSoftwareGame.htm.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/services/prestations.html.twig" />
-        <option value="$PROJECT_DIR$/web/assets/js/popupWinSoftwareGame.js" />
+        <option value="$PROJECT_DIR$/web/app_dev.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/annexes/popupWinSoftwareGame.html.twig" />
         <option value="$PROJECT_DIR$/web/css/style.css" />
+        <option value="$PROJECT_DIR$/web/assets/js/popupWinSoftwareGame.js" />
       </list>
     </option>
   </component>
@@ -184,7 +192,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -395,58 +403,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="entreprise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adenia.fr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adenia.fr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adenia.fr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adenia.fr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="annexes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -483,7 +439,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -710,7 +666,13 @@
       <option name="project" value="LOCAL" />
       <updated>1453302679232</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Création de la popup de fin du jeu (non mise en place).&#10;Modifications de la FAQ.">
+      <created>1453405047402</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1453405047402</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView">
@@ -726,12 +688,11 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2730711" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27760968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.4924357" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5075643" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.49092284" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -743,6 +704,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -759,7 +721,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Test commit" />
     <MESSAGE value="Title, description, keywords et réécriture des liens vers les images dans l'onglet technologies." />
     <MESSAGE value="Modification du rose" />
     <MESSAGE value="Modification du rose du site" />
@@ -784,7 +745,8 @@
     <MESSAGE value="Modification du texte associé à Frédéric en version mobile" />
     <MESSAGE value="Amélioration de la page 404 not found" />
     <MESSAGE value="Remplissage de la FAQ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remplissage de la FAQ" />
+    <MESSAGE value="Création de la popup de fin du jeu (non mise en place).&#10;Modifications de la FAQ." />
+    <option name="LAST_COMMIT_MESSAGE" value="Création de la popup de fin du jeu (non mise en place).&#10;Modifications de la FAQ." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -793,6 +755,40 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/annexes/popupWinSoftwareGame.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#5357#5751#0" expanded="false" />
+            <element signature="e#5792#5927#0" expanded="false" />
+            <element signature="e#5966#6102#0" expanded="false" />
+            <element signature="e#6145#6185#0" expanded="false" />
+            <element signature="e#6226#6271#0" expanded="false" />
+            <element signature="e#6321#6542#0" expanded="false" />
+            <element signature="e#6597#6661#0" expanded="false" />
+            <element signature="e#6715#6938#0" expanded="false" />
+            <element signature="e#7106#7330#0" expanded="false" />
+            <element signature="e#7381#7462#0" expanded="false" />
+            <element signature="e#7510#7535#0" expanded="false" />
+            <element signature="e#7592#7746#0" expanded="false" />
+            <element signature="e#7809#7837#0" expanded="false" />
+            <element signature="e#7879#7955#0" expanded="false" />
+            <element signature="e#8010#8076#0" expanded="false" />
+            <element signature="e#8136#8195#0" expanded="false" />
+            <element signature="e#8402#8636#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -980,13 +976,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.739726">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36396396">
@@ -1071,13 +1060,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://Y:/pinktheme/faq2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="233" column="143" selection-start-line="233" selection-start-column="140" selection-end-line="233" selection-end-column="143" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08732877">
@@ -1089,7 +1071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8988" column="19" selection-start-line="8988" selection-start-column="1" selection-end-line="8988" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1107,23 +1088,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://Y:/pinktheme/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34931508">
-          <caret line="196" column="71" selection-start-line="196" selection-start-column="54" selection-end-line="196" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/popupWinSoftwareGame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/services/faq.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1134,42 +1098,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/services/prestations.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7454545">
+        <state vertical-scroll-proportion="0.0">
           <caret line="136" column="88" selection-start-line="136" selection-start-column="57" selection-end-line="136" selection-end-column="88" />
-          <folding>
-            <element signature="e#9940#9979#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/annexes/popupWinSoftwareGame.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.307693">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        <state vertical-scroll-proportion="-10.384615">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58196723">
-          <caret line="425" column="0" selection-start-line="425" selection-start-column="0" selection-end-line="425" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="419" column="17" selection-start-line="419" selection-start-column="17" selection-end-line="419" selection-end-column="17" />
           <folding>
             <element signature="e#5357#5751#0" expanded="false" />
             <element signature="e#5792#5927#0" expanded="false" />
             <element signature="e#5966#6102#0" expanded="false" />
             <element signature="e#6145#6185#0" expanded="false" />
             <element signature="e#6226#6271#0" expanded="false" />
-            <element signature="e#7482#7563#0" expanded="false" />
-            <element signature="e#7611#7636#0" expanded="false" />
-            <element signature="e#7693#7847#0" expanded="false" />
-            <element signature="e#7910#7938#0" expanded="false" />
-            <element signature="e#7980#8056#0" expanded="false" />
-            <element signature="e#8111#8177#0" expanded="false" />
-            <element signature="e#8237#8296#0" expanded="false" />
-            <element signature="e#8349#8450#0" expanded="false" />
-            <element signature="e#8503#8738#0" expanded="false" />
-            <element signature="e#8796#8878#0" expanded="false" />
+            <element signature="e#6321#6542#0" expanded="false" />
+            <element signature="e#6597#6661#0" expanded="false" />
+            <element signature="e#6715#6938#0" expanded="false" />
+            <element signature="e#7106#7330#0" expanded="false" />
+            <element signature="e#7381#7462#0" expanded="false" />
+            <element signature="e#7510#7535#0" expanded="false" />
+            <element signature="e#7592#7746#0" expanded="false" />
+            <element signature="e#7809#7837#0" expanded="false" />
+            <element signature="e#7879#7955#0" expanded="false" />
+            <element signature="e#8010#8076#0" expanded="false" />
+            <element signature="e#8136#8195#0" expanded="false" />
+            <element signature="e#8402#8636#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/annexes/popupWinSoftwareGame.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.615385">
+          <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/popupWinSoftwareGame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.89180326">
+          <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!block;n#attemptCloseWinSoftwareGame#0" expanded="false" />
           </folding>
         </state>
       </provider>
