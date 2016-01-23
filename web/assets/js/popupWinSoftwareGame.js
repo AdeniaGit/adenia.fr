@@ -79,7 +79,7 @@ function closeWinSoftwareGameEnd()
 {
     // on remet le texte du bouton à son origine
     var popup = $('#popupWinSoftwareGameEndDiv');
-    $('#'+buttonLaunchingPopup).text('Comparer les solutions client lourd et web');
+    $('#'+buttonLaunchingPopup).text('Démarrer le jeu client lourd vs web');
     popup.css({display: 'none'});
     popup.hide();
     popupEndVisible = false;
