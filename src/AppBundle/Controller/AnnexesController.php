@@ -16,4 +16,9 @@ class AnnexesController extends Controller
     {
         return $this->render('annexes/mentions-legales.html.twig', array());
     }
+
+    public function jeuAction(Request $request)
+    {
+        return $this->render('annexes/popupWinSoftwareGame.html.twig', array());
+    }
 }

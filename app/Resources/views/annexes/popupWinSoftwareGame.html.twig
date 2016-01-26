@@ -1,42 +1,113 @@
-<div id="popupWinSoftwareGameDiv">
-    <div class="header-popup text-accentuate">
-        Erreur syst&egrave;me
-        <a href="javascript:closeWinSoftwareGame()"><i class="fa fa-times pull-right close-buton"></i></a>
-    </div>
-    <div class="body-popup" onmousemove="attemptCloseWinSoftwareGame()">
-        <img id="popupWinSoftwareGameImg" src="{{ asset('resources/attention.png') }}" alt="Logo d'erreur" height="32px"/>
-        <span id="popupWinSoftwareGameErrortext">La mise &agrave; jour a &eacute;chou&eacute;e.</span>
-        <br/>
-        <br/>
-        <a href="javascript:closeWinSoftwareGame()" class="ok-bouton">OK</a>
-    </div>
-</div>
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8" />
+    <title>Adenia - client lourd vs Web</title>
+    <meta name="description"    content="Mise en application des différences entre les logiciels client lourd installés
+    sur le poste du client et les applications Web" />
+    <meta name="keywords"       content="client lourd application web" />
+    <meta name="viewport"       content="width=device-width, initial-scale=1">
 
-<div id="popupWinSoftwareGameEndDiv">
-    <div class="header-popup text-accentuate">
-        <p class="title">Solutions Web</p>
-        <img src="{{ asset('resources/navigateurs/logo-google-chrome.png') }}" alt="Logo Google Chrome" height="25px"/>
-        <img src="{{ asset('resources/navigateurs/logo-firefox.png') }}" alt="Logo Firefox" height="25px"/>
-        <img src="{{ asset('resources/navigateurs/logo-ie.png') }}" alt="Logo Internet Explorer" height="25px"/>
-        <img src="{{ asset('resources/navigateurs/logo-safari.png') }}" alt="Logo Safari" height="25px"/>
-        <img src="{{ asset('resources/navigateurs/logo-opera.png') }}" alt="Logo Opera" height="25px"/>
-        <a href="javascript:closeWinSoftwareGameEnd()"><span class="pull-right close-buton">X</span></a>
+    {% block stylesheets %}{% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/bootstrap.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/motive/motive-parties.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" />
+</head>
+<body class="cssAnimate ct-headroom--scrollUpMenu">
+<!-- affiche le loader -->
+<div class="ct-preloader">
+    <div class="ct-preloader-content"></div>
+</div>
+<div id="ct-js-wrapper" class="ct-pageWrapper" style="box-shadow: none;">
+    <div class="row ct-u-backgroundMotive text-center ct-u-paddingBoth10" style="color: #fff;">
+        <h1 id="gameHeader">Phase 1 : Applications client lourd</h1>
     </div>
-    <div class="body-popup">
-        <p class="bandeau-url">
-            1. Saisissez votre url : <span class="url">www.monentreprise.fr/monlogiciel.fr</span>
-        </p>
-        <br/>
-        <p>
-            2. (option) Connectez vous &agrave; votre application s&eacute;curis&eacute;e
-        <br/>
-            <span class="connexion">Identifiant</span><span class="connexion">Mot de passe</span>
-        </p>
-        <br/>
-        <p>
-            3. Vous pouvez utiliser vos fonctionnalit&eacute;s !
-        </p>
-        <a href="javascript:closeWinSoftwareGameEnd()" class="ok-bouton">Simplifiez-votre travail, passez au web.</a>
+    <div class="row">
+        <a id="closeGameButton" class="btn btn-primary text-accentuate" style="margin: 10px 25px;"
+           href="javascript:runWinSoftwareGame()">
+            Passer &agrave; la phase 2
+        </a>
+    </div>
+    <div id="popupWinSoftwareGameDiv">
+        <div class="header-popup text-accentuate">
+            Erreur syst&egrave;me
+            <a href="javascript:closeWinSoftwareGame()"><i class="fa fa-times pull-right close-buton"></i></a>
+        </div>
+        <div class="body-popup" onmousemove="attemptCloseWinSoftwareGame()">
+            <img id="popupWinSoftwareGameImg" src="{{ asset('resources/attention.png') }}" alt="Logo d'erreur" height="32px"/>
+            <span id="popupWinSoftwareGameErrortext">La mise &agrave; jour a &eacute;chou&eacute;e.</span>
+            <br/>
+            <br/>
+            <a href="javascript:closeWinSoftwareGame()" class="ok-bouton">OK</a>
+        </div>
+    </div>
+
+    <div id="popupWinSoftwareGameEndDiv">
+        <div class="header-popup text-accentuate">
+            <p class="title">Solutions Web</p>
+            <img src="{{ asset('resources/navigateurs/logo-google-chrome.png') }}" alt="Logo Google Chrome" height="25px"/>
+            <img src="{{ asset('resources/navigateurs/logo-firefox.png') }}" alt="Logo Firefox" height="25px"/>
+            <img src="{{ asset('resources/navigateurs/logo-ie.png') }}" alt="Logo Internet Explorer" height="25px"/>
+            <img src="{{ asset('resources/navigateurs/logo-safari.png') }}" alt="Logo Safari" height="25px"/>
+            <img src="{{ asset('resources/navigateurs/logo-opera.png') }}" alt="Logo Opera" height="25px"/>
+            <a href="javascript:closeWinSoftwareGameEnd()"><span class="pull-right close-buton">X</span></a>
+        </div>
+        <div class="body-popup">
+            <p class="bandeau-url">
+                1. Saisissez votre url : <span class="url">www.monentreprise.fr/monlogiciel.fr</span>
+            </p>
+            <br/>
+            <p>
+                2. (option) Connectez vous &agrave; votre application s&eacute;curis&eacute;e
+                <br/>
+                <span class="connexion">Identifiant</span><span class="connexion">Mot de passe</span>
+            </p>
+            <br/>
+            <p>
+                3. Vous pouvez utiliser vos fonctionnalit&eacute;s !
+            </p>
+            <a href="javascript:closeWinSoftwareGameEnd()" class="ok-bouton">Simplifiez-votre travail, passez au web.</a>
+        </div>
     </div>
 </div>
+<!--[if lt IE 9]> -->
+<script src="{{ asset('assets/js/html5shiv.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/js/respond.min.js') }}" type="text/javascript"></script>
+<!--[endif]-->
+<script src="{{ asset('assets/js/jquery.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/js/main-compiled.js') }}" type="text/javascript"></script>
+{#<script src="{{ asset('assets/js/modernizr.custom.js') }}" type="text/javascript"></script>#}
+{#<script src="{{ asset('assets/js/light-gallery/js/lightGallery.js') }}" type="text/javascript"></script>#}
+{#<script src="{{ asset('assets/js/magnific-popup/jquery.magnific-popup.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/js/magnific-popup/init.js') }}" type="text/javascript"></script>#}
+{#<script src="{{ asset('assets/js/isotope/jquery.isotope.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/js/isotope/imagesloaded.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/js/isotope/infinitescroll.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assets/js/isotope/init.js') }}" type="text/javascript"></script>#}
+{#<script src="{{ asset('assets/js/adenia.js') }}" type="text/javascript"></script>#}
+
+
+<script type="text/javascript">
+    var errorTable = [
+        {"image": "{{ asset('resources/attention.png') }}",
+            "erreur": "La mise à jour a échouée."},
+        {"image": "{{ asset('resources/erreur.png') }}",
+            "erreur": "Erreur fatale. L'application va être fermée"},
+        {"image": "{{ asset('resources/erreur.png') }}",
+            "erreur": "Une erreur inconnue est survenue lors de l'installation. " +
+            "L'application n'a pas pu être installée."},
+        {"image": "{{ asset('resources/erreur.png') }}",
+            "erreur": "L'instruction à l'adresse mémoire \"0x036d2131\" ne peut pas être lue. " +
+            "<br/><br/>Cliquez sur OK pour terminer le programme." +
+            "<br/>Cliquez sur Annuler pour déboguer le programme."},
+        {"image": "{{ asset('resources/attention.png') }}",
+            "erreur": "L'application nécessite une architecture 64 bits, elle n'a pas pu être installée."}
+    ];
+</script>
+<script src="{{ asset('assets/js/popupWinSoftwareGame.js') }}" type="text/javascript"></script>
+</body>
+</html>
+
 

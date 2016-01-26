@@ -5,6 +5,15 @@
     solutions et une formation adaptée aux outils créés. {% endblock %}
 {% block keywords %}analyse développement formation{% endblock %}
 
+{% block javascriptBefore %}
+    <script type="text/javascript">
+        function runSoftwareGame()
+        {
+            window.open("{{ path('jeu_clientlourd_web') }}");
+        }
+    </script>
+{% endblock %}
+
 {% block body %}
     <section class="ct-u-paddingTop80 ct-u-paddingBottom20">
         <div class="container">
@@ -136,8 +145,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
                     <p class="ct-u-marginBottom20">Vous pouvez comparer les solutions client lourd (solutions install&eacute;es sur votre machine locale)
                     par rapport aux solutions web avec le petit jeu suivant :</p>
-                    <a id="runWinSoftwareGameBtn" class="btn btn-primary text-accentuate"
-                       href="javascript:runWinSoftwareGame('runWinSoftwareGameBtn')">
+                    <a id="runWinSoftwareGameBtn" class="btn btn-primary text-accentuate" href="javascript:runSoftwareGame()">
                         D&eacute;marrer le jeu client lourd vs web
                     </a>
                 </div>
@@ -266,25 +274,4 @@
             </div>
         </div>
     </section>
-    {{ include('annexes/popupWinSoftwareGame.html.twig') }}
-    {% block javascripts %}
-        <script type="text/javascript">
-            var errorTable = [
-                    {"image": "{{ asset('resources/attention.png') }}",
-                        "erreur": "La mise à jour a échouée."},
-                    {"image": "{{ asset('resources/erreur.png') }}",
-                        "erreur": "Erreur fatale. L'application va être fermée"},
-                    {"image": "{{ asset('resources/erreur.png') }}",
-                        "erreur": "Une erreur inconnue est survenue lors de l'installation. " +
-                        "L'application n'a pas pu être installée."},
-                    {"image": "{{ asset('resources/erreur.png') }}",
-                        "erreur": "L'instruction à l'adresse mémoire \"0x036d2131\" ne peut pas être lue. " +
-                        "<br/><br/>Cliquez sur OK pour terminer le programme." +
-                        "<br/>Cliquez sur Annuler pour déboguer le programme."},
-                    {"image": "{{ asset('resources/attention.png') }}",
-                        "erreur": "L'application nécessite une architecture 64 bits, elle n'a pas pu être installée."}
-            ];
-        </script>
-        <script src="{{ asset('assets/js/popupWinSoftwareGame.js') }}" type="text/javascript"></script>
-    {% endblock %}
 {% endblock %}
