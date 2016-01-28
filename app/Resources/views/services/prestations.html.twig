@@ -5,6 +5,15 @@
     solutions et une formation adaptée aux outils créés. {% endblock %}
 {% block keywords %}analyse développement formation{% endblock %}
 
+{% block javascriptBefore %}
+    <script type="text/javascript">
+        function runSoftwareGame()
+        {
+            window.open("{{ path('jeu_clientlourd_web') }}");
+        }
+    </script>
+{% endblock %}
+
 {% block body %}
     <section class="ct-u-paddingTop80 ct-u-paddingBottom20">
         <div class="container">
@@ -55,8 +64,7 @@
                             <div class="ct-squareThumbnail-button"><a href="#"></a></div>
                         </div>
                         <div class="ct-squareThumbnail-mask">
-                            <img src="{{ asset('resources/accessibilite.png') }}" alt="Accessibilit&eacute;"
-                                 style="height: 120px; margin-top: -40px; margin-bottom: 20px;"/>
+                            <img src="{{ asset('resources/accessibilite.png') }}" alt="Accessibilit&eacute;"/>
                             <div class="ct-squareThumbnail-text text-uppercase"><span class="ct-fw-700">Accessibilit&eacute;</span></div>
                         </div>
                     </div>
@@ -79,8 +87,7 @@
                             <div class="ct-squareThumbnail-button"><a href="#"></a></div>
                         </div>
                         <div class="ct-squareThumbnail-mask">
-                            <img src="{{ asset('resources/compatibilite.png') }}" alt="Compatibilit&eacute;"
-                                 style="height: 120px; margin-top: -40px; margin-bottom: 20px;"/>
+                            <img src="{{ asset('resources/compatibilite.png') }}" alt="Compatibilit&eacute;"/>
                             <div class="ct-squareThumbnail-text text-uppercase">
                                 <span class="ct-fw-700">Compatibilit&eacute;</span>
                             </div>
@@ -103,8 +110,7 @@
                             <div class="ct-squareThumbnail-button"><a href="#"></a></div>
                         </div>
                         <div class="ct-squareThumbnail-mask">
-                            <img src="{{ asset('resources/adaptabilite.png') }}" alt="Adaptabilit&eacute;"
-                                    style="height: 120px; margin-top: -40px; margin-bottom: 20px;"/>
+                            <img src="{{ asset('resources/adaptabilite.png') }}" alt="Adaptabilit&eacute;"/>
                             <div class="ct-squareThumbnail-text text-uppercase">
                                 <span class="ct-fw-700">Adaptabilit&eacute;</span>
                             </div>
@@ -123,8 +129,7 @@
                             <div class="ct-squareThumbnail-button"><a href="#"></a></div>
                         </div>
                         <div class="ct-squareThumbnail-mask">
-                            <img src="{{ asset('resources/maintenabilite.png') }}" alt="Maintenabilit&eacute; et &eacute;volutivit&eacute;"
-                                 style="height: 120px; margin-top: -40px; margin-bottom: 20px;"/>
+                            <img src="{{ asset('resources/maintenabilite.png') }}" alt="Maintenabilit&eacute; et &eacute;volutivit&eacute;"/>
                             <div class="ct-squareThumbnail-text text-uppercase">
                                 <span class="ct-fw-700">Maintenabilit&eacute; et &eacute;volutivit&eacute;</span>
                             </div>
@@ -134,9 +139,8 @@
             </div>
             <div class="row ct-u-paddingBoth40">
                 <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-                    <a id="runWinSoftwareGameBtn" class="btn btn-primary text-accentuate"
-                       href="javascript:runWinSoftwareGame('runWinSoftwareGameBtn')">
-                        Comparer les solutions client lourd et web
+                    <a id="runWinSoftwareGameBtn" class="btn btn-primary text-accentuate" href="javascript:runSoftwareGame()">
+                        Comparer les solutions client lourd et les solutions web
                     </a>
                 </div>
             </div>
@@ -264,25 +268,4 @@
             </div>
         </div>
     </section>
-    {{ include('annexes/popupWinSoftwareGame.html.twig') }}
-    {% block javascripts %}
-        <script type="text/javascript">
-            var errorTable = [
-                    {"image": "{{ asset('resources/attention.png') }}",
-                        "erreur": "La mise à jour a échouée."},
-                    {"image": "{{ asset('resources/erreur.png') }}",
-                        "erreur": "Erreur fatale. L'application va être fermée"},
-                    {"image": "{{ asset('resources/erreur.png') }}",
-                        "erreur": "Une erreur inconnue est survenue lors de l'installation. " +
-                        "L'application n'a pas pu être installée."},
-                    {"image": "{{ asset('resources/erreur.png') }}",
-                        "erreur": "L'instruction à l'adresse mémoire \"0x036d2131\" ne peut pas être lue. " +
-                        "<br/><br/>Cliquez sur OK pour terminer le programme." +
-                        "<br/>Cliquez sur Annuler pour déboguer le programme."},
-                    {"image": "{{ asset('resources/attention.png') }}",
-                        "erreur": "L'application nécessite une architecture 64 bits, elle n'a pas pu être installée."}
-            ];
-        </script>
-        <script src="{{ asset('assets/js/popupWinSoftwareGame.js') }}" type="text/javascript"></script>
-    {% endblock %}
 {% endblock %}

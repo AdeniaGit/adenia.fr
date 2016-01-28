@@ -25,12 +25,16 @@
                         <div class="widget">
                             <div class="widget-inner">
                                 <h1 class="text-uppercase ct-fw-700 widget-title">Plan du site</h1>
-                                <ul class="list-unstyled text-accentuate">
+                                <ul id="plan-du-site-list" class="list-unstyled text-accentuate">
                                     <li>
-                                        <a href="{{ path('accueil') }}">
-                                            <i class="fa fa-long-arrow-right"></i>
+                                        <a href="{{ path('accueil') }}" class="text-uppercase">
                                             Accueil
                                         </a>
+                                    </li>
+                                    <li>
+                                        <p href="#" class="text-uppercase">
+                                            L'entreprise
+                                        </p>
                                     </li>
                                     <li>
                                         <a href="{{ path('entreprise_valeurs') }}">
@@ -51,17 +55,33 @@
                                         </a>
                                     </li>
                                     <li>
+                                        <p href="#" class="text-uppercase">
+                                            Services
+                                        </p>
+                                    </li>
+                                    <li>
                                         <a href="{{ path('services_prestations') }}">
                                             <i class="fa fa-long-arrow-right"></i>
                                             Prestations
                                         </a>
                                     </li>
-                                    {#<li>
+                                    <li>
+                                        <a href="{{ path('services_faq') }}">
+                                            <i class="fa fa-long-arrow-right"></i>
+                                            Prestations
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <p href="#" class="text-uppercase">
+                                            Open Source
+                                        </p>
+                                    </li>
+                                    <li>
                                         <a href="{{ path('opensource_opensource_et_moi') }}">
                                             <i class="fa fa-long-arrow-right"></i>
                                             L'Open Source et moi
                                         </a>
-                                    </li>#}
+                                    </li>
                                     <li>
                                         <a href="{{ path('opensource_philosophie') }}">
                                             <i class="fa fa-long-arrow-right"></i>
@@ -75,8 +95,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="{{ path('contact') }}">
-                                            <i class="fa fa-long-arrow-right"></i>
+                                        <a href="{{ path('contact') }}" class="text-uppercase">
                                             Contact
                                         </a>
                                     </li>

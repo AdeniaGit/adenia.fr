@@ -2,7 +2,9 @@
 {% block title %} - Contact{% endblock %}
 {% block description %}Contacts de l'entreprise Adenia. Téléphone, adresse, e-mail, plan et formulaire de contact.{% endblock %}
 {% block keywords %}contact téléphone mail plan{% endblock %}
-
+{% block javascriptBefore %}
+    <script type="text/javascript" src='https://www.google.com/recaptcha/api.js'></script>
+{% endblock %}
 {% block body %}
     <section class="ct-u-paddingTop80 ct-u-paddingBottom20">
         <div class="container">
