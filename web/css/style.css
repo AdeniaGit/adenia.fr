@@ -485,3 +485,9 @@ a:hover, a:focus { color: #9b4064; }
     top: 0px !important;
     bottom: auto !important; */
 }
+
+/****************************************/
+
+a.link-inline , .ct-squareThumbnail .ct-squareThumbnail-content a.link-inline  {
+    text-decoration: underline; display: inline;
+}
