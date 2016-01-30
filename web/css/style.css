@@ -476,16 +476,12 @@ a:hover, a:focus { color: #9b4064; }
 #cookie-law-close-button { float: right}
 #cookie-law-info-bar {
     background-color: rgba(0, 0, 0, 0.9) !important;
-  z-index:999;
-    width:100%;  position: fixed; bottom: 0;
+    z-index: 999;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
     left: 0;
-
-/*
-    background: black !important;
-    top: 0px !important;
-    bottom: auto !important; */
 }
-
 /****************************************/
 
 a.link-inline , .ct-squareThumbnail .ct-squareThumbnail-content a.link-inline  {
