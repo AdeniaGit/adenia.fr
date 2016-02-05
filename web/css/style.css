@@ -293,8 +293,18 @@ a:hover, a:focus { color: #9b4064; }
     margin-bottom: 20px;
 }
 
+.panel-group .ct-accordion--decorated > .panel-heading a::after {
+    padding: 4px 8px 7px;
+}
+
+.panel-group .panel-default > .panel-heading a h2 {
+    text-transform: none;
+    font-size: 22px;
+}
+
+
 /****************************************/
-/*          GESTION POPUP GAME          */
+/*          GESTION COMPARAISON         */
 /****************************************/
 #popupWinSoftwareGameDiv {
     position: fixed;
@@ -449,6 +459,26 @@ a:hover, a:focus { color: #9b4064; }
     color: black;
     background-color: #e7e7e7;
     border:1px solid #b9b9b9;
+}
+
+.compare-img {
+    max-height: 200px;
+}
+
+figcaption {
+    color: #B21D4F;
+    font-size: 80%;
+    font-style: italic;
+}
+
+.comparaison-div {
+    display: inline-block;
+    width: 49%;
+    padding: 0 20px;
+}
+
+#comapraion-zone p {
+    line-height: 24px;
 }
 
 /****************************************/
