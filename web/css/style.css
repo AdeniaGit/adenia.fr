@@ -208,18 +208,18 @@ h3 {
 }
 
 @media (min-width: 768px) {
-    .fullsection {
+    .large-device-section {
         display: block;
     }
-    .mobilesection {
+    .small-device-section {
         display: none;
     }
 }
 @media (max-width: 768px) {
-    .fullsection {
+    .large-device-section {
         display: none;
     }
-    .mobilesection {
+    .small-device-section {
         display: block;
     }
 }
@@ -382,8 +382,6 @@ a:hover, a:focus { color: #9b4064; }
 }
 
 
-
-
 #popupWinSoftwareGameEndDiv {
     position: fixed;
     z-index: 999;
@@ -475,6 +473,11 @@ figcaption {
     display: inline-block;
     width: 49%;
     padding: 0 20px;
+    vertical-align: top;
+}
+
+.comparaison-img-inner {
+    float: left;
 }
 
 #comapraion-zone p {

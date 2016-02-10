@@ -19,6 +19,6 @@ class AnnexesController extends Controller
 
     public function jeuAction(Request $request)
     {
-        return $this->render('annexes/popupWinSoftwareGame.html.twig', array());
+        return $this->render('annexes/software-game.html.twig', array());
     }
 }

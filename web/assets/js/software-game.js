@@ -2,34 +2,23 @@
 /** -------------------- GESTION DE LA POPUP DE JEU DES ERREURS D'OS -------------------- */
 /** ------------------------------------------------------------------------------------- */
 var popupVisible = false;
-var popupEndVisible = false;
+var popupWebVisible = false;
 var errorTableIndice = 0;
 var errorTableLength = errorTable.length;
-function runWinSoftwareGame()
+function nextGameStep()
 {
-    /*// On conserve l'id du bouton qui a lancé la popup
-    buttonLaunchingPopup = buttonPressed;
-    // Si la popup n'est pas visible on la lance et on change le texte du bouton pour stoper le jeu
-    if(popupVisible == false && popupEndVisible == false)
+    // Si la popup Web n'est pas visible
+    if (popupWebVisible == false)
     {
-        var popup = $('#popupWinSoftwareGameDiv');
-        //$('#'+buttonLaunchingPopup).text('Arrêter le jeu');
-        popup.css({display: 'block', top: '50%', 'margin-top': '-60px', left: '50%', 'margin-left': '-200px'});
-        popup.show();
-        popupVisible = true;
+        stepTwo();
     }
-    // Sinon (si la popup est visible) on arrête le jeu
-    else*/ if (popupEndVisible == false)
-        {
-            closeWinSoftwareGame();
-        }
-        else
-        {
-            closeWinSoftwareGameEnd();
-        }
+    else
+    {
+        endGame();
+    }
 }
 
-function closeWinSoftwareGame()
+function stepTwo()
 {
     // On cache la popup client lourd
     var popup = $('#popupWinSoftwareGameDiv');
@@ -37,11 +26,12 @@ function closeWinSoftwareGame()
     popup.hide();
     popupVisible = false;
     $('#gameHeader').text('Phase 2 : Applications Web');
+    $('#regles-jeu').text('');
     // On affiche la popup Web
     var popupEnd = $('#popupWinSoftwareGameEndDiv');
     popupEnd.css({display: 'block'});
     popupEnd.show();
-    popupEndVisible = true;
+    popupWebVisible = true;
     $('#closeGameButton').text('Retour au site');
 }
 
@@ -74,13 +64,13 @@ function attemptCloseWinSoftwareGame()
 }
 
 // fonction qui ferme la popup de fin du jeu
-function closeWinSoftwareGameEnd()
+function endGame()
 {
     // on remet le texte du bouton à son origine
     var popup = $('#popupWinSoftwareGameEndDiv');
     //$('#'+buttonLaunchingPopup).text('Démarrer le jeu client lourd vs web');
     popup.css({display: 'none'});
     popup.hide();
-    popupEndVisible = false;
+    popupWebVisible = false;
     window.close();
 }
