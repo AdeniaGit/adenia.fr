@@ -322,6 +322,19 @@ a:hover, a:focus { color: #9b4064; }
     border-top-right-radius: 10px;
     background: linear-gradient(to top, #0747E5 95%, #3894FF);
 }
+/* Permet de cibler Safari :
+ @media screen and (-webkit-min-device-pixel-ratio:0)
+ {
+    .element {
+        [;property:value;;];
+    }
+ }
+*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #popupWinSoftwareGameDiv {
+        [;background: -webkit-linear-gradient(top, #0747E5 95%, #3894FF);;];
+    }
+}
 
 #popupWinSoftwareGameDiv .header-popup {
     color: white;
